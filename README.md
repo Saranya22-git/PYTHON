@@ -2,7 +2,7 @@ Hey everybody!!!
 
 **PYTHON**
 
-### **Table of Contents**
+# **Table of Contents**
 - [**Table of Contents**](#table-of-contents)
 - [**Programming Fundamentals**](#programming-fundamentals)
   - [**Introduction to Programming**](#introduction-to-programming)
@@ -42,109 +42,110 @@ Hey everybody!!!
     - [**Bytecode**](#bytecode)
     - [**Python Virtual Machine (PVM)**](#python-virtual-machine-pvm)
     - [**Python Runtime Environment**](#python-runtime-environment)
-- [**Python Program Structure**](#python-program-structure)
-  - [**Keywords**](#keywords)
-  - [**Identifiers**](#identifiers)
-  - [**Variables**](#variables)
-  - [**Rules for Identifiers/Variables in Python Programming:**](#rules-for-identifiersvariables-in-python-programming)
-  - [**Comments**](#comments)
-    - [**Single-Line Comment**](#single-line-comment)
-    - [**Multi-Line Comment**](#multi-line-comment)
-  - [**Indentation**](#indentation)
-  - [**Case-Sensitivity**](#case-sensitivity)
-  - [**Multiple Assignment**](#multiple-assignment)
-  - [**Multiple Variable Assignment**](#multiple-variable-assignment)
-  - [**Swapping Variables**](#swapping-variables)
-- [**Memory Model \& Internal Concepts**](#memory-model--internal-concepts)
-  - [**Objects**](#objects)
-  - [**References**](#references)
-  - [**Variables Store References**](#variables-store-references)
-  - [**id() function**](#id-function)
-  - [**type() function**](#type-function)
-  - [**Object Identity**](#object-identity)
-  - [**Reference Assignment**](#reference-assignment)
-  - [**Shared Object Referencing**](#shared-object-referencing)
-  - [**Integer Caching**](#integer-caching)
-  - [**Mutable vs Immutable**](#mutable-vs-immutable)
-    - [**Immutable Objects**](#immutable-objects)
-    - [**Mutable Objects**](#mutable-objects)
-  - [**Garbage Collection**](#garbage-collection)
-  - [**is vs ==**](#is-vs-)
-- [**Data Types in Python**](#data-types-in-python)
-  - [**Fundamental Category data type**](#fundamental-category-data-type)
-    - [**int**](#int)
-      - [**Integer Immutability**](#integer-immutability)
-      - [**Cached Integer**](#cached-integer)
-      - [**Integer Caching**](#integer-caching-1)
-      - [**Object Referencing**](#object-referencing)
-      - [**Reference Assignment**](#reference-assignment-1)
-      - [**Separate Object Creation**](#separate-object-creation)
-      - [**Integer Caching OR Small Integer Caching and also related to Object Interning**](#integer-caching-or-small-integer-caching-and-also-related-to-object-interning)
-      - [**Object Referencing OR Reference Assignment**](#object-referencing-or-reference-assignment)
-      - [**No Integer Caching OR Separate Object Creation**](#no-integer-caching-or-separate-object-creation)
-      - [**is vs ==**](#is-vs--1)
-      - [**Garbage Collection Relation**](#garbage-collection-relation)
-      - [**Type Casting to int**](#type-casting-to-int)
-    - [**float**](#float)
-      - [**Float Immutability**](#float-immutability)
-      - [**Possible Float Object Reuse OR Interpreter Optimization**](#possible-float-object-reuse-or-interpreter-optimization)
-      - [**Reference Assignment**](#reference-assignment-2)
-      - [**Scientific Notation**](#scientific-notation)
-      - [**Float precision issue**](#float-precision-issue)
-      - [**is vs ==**](#is-vs--2)
-      - [**Type casting to float**](#type-casting-to-float)
-    - [**bool**](#bool)
-      - [**Boolean Immutability**](#boolean-immutability)
-      - [**Object Referencing OR Shared Object Referencing OR Singleton Boolean Objects OR Object Reuse**](#object-referencing-or-shared-object-referencing-or-singleton-boolean-objects-or-object-reuse)
-      - [**Reference Assignment**](#reference-assignment-3)
-      - [**bool-int relationship OR bool() type casting OR Shared object referencing**](#bool-int-relationship-or-bool-type-casting-or-shared-object-referencing)
-      - [**Arithmetic operations on bool values return int results**](#arithmetic-operations-on-bool-values-return-int-results)
-      - [**is vs ==**](#is-vs--3)
-      - [**Type Casting to bool**](#type-casting-to-bool)
-      - [**Truthy Values**](#truthy-values)
-      - [**Falsy Values**](#falsy-values)
-    - [**complex**](#complex)
-      - [**Complex datatype representation**](#complex-datatype-representation)
-      - [**Complex Immutability**](#complex-immutability)
-      - [**Separate Object Creation OR Object Referencing**](#separate-object-creation-or-object-referencing)
-      - [**Reference Assignment**](#reference-assignment-4)
-      - [**Real and Imaginary parts**](#real-and-imaginary-parts)
-      - [**Two-Argument complex()**](#two-argument-complex)
-      - [**is vs ==**](#is-vs--4)
-      - [**No ordering comparison**](#no-ordering-comparison)
-      - [**Type Casting to complex**](#type-casting-to-complex)
-      - [**Complex values do not support direct int/float conversion**](#complex-values-do-not-support-direct-intfloat-conversion)
-      - [**Complex literals do not support spaces inside string conversion**](#complex-literals-do-not-support-spaces-inside-string-conversion)
-  - [**Sequence Category data type**](#sequence-category-data-type)
-    - [**str**](#str)
-      - [**Types of str**](#types-of-str)
-      - [**Immutability type**](#immutability-type)
-      - [**Operations on str data**](#operations-on-str-data)
-      - [**Concatenation**](#concatenation)
-      - [**With Space**](#with-space)
-      - [**String Repetition**](#string-repetition)
-      - [**Membership Operators**](#membership-operators)
-      - [**Escape Characters**](#escape-characters)
-      - [**String memory behavior**](#string-memory-behavior)
-      - [**String References**](#string-references)
-      - [**String formatting**](#string-formatting)
-      - [**Unicode \& ASCII Basics**](#unicode--ascii-basics)
-      - [**is vs ==**](#is-vs--5)
-      - [**Strings cannot be modified using indexing**](#strings-cannot-be-modified-using-indexing)
-      - [**String Methods**](#string-methods)
-    - [**List Category data type**](#list-category-data-type)
-    - [**Set Category data type**](#set-category-data-type)
-    - [**Dict Category data type**](#dict-category-data-type)
-    - [**None Category data type**](#none-category-data-type)
+    - [**Interactive Mode vs Script Mode**](#interactive-mode-vs-script-mode)
+    - [**Python Program Structure**](#python-program-structure)
+      - [**Keywords**](#keywords)
+      - [**Identifiers**](#identifiers)
+      - [**Variables**](#variables)
+      - [**Rules for Identifiers/Variables in Python Programming:**](#rules-for-identifiersvariables-in-python-programming)
+      - [**Comments**](#comments)
+        - [**Single-Line Comment**](#single-line-comment)
+        - [**Multi-Line Comment**](#multi-line-comment)
+      - [**Indentation**](#indentation)
+      - [**Case-Sensitivity**](#case-sensitivity)
+      - [**Multiple Assignment**](#multiple-assignment)
+      - [**Multiple Variable Assignment**](#multiple-variable-assignment)
+      - [**Swapping Variables**](#swapping-variables)
+    - [**Memory Model \& Internal Concepts**](#memory-model--internal-concepts)
+      - [**Objects**](#objects)
+      - [**References**](#references)
+      - [**Variables Store References**](#variables-store-references)
+      - [**id() function**](#id-function)
+      - [**type() function**](#type-function)
+      - [**Object Identity**](#object-identity)
+      - [**Reference Assignment**](#reference-assignment)
+      - [**Shared Object Referencing**](#shared-object-referencing)
+      - [**Integer Caching**](#integer-caching)
+      - [**Mutable vs Immutable**](#mutable-vs-immutable)
+        - [**Immutable Objects**](#immutable-objects)
+        - [**Mutable Objects**](#mutable-objects)
+      - [**Garbage Collection**](#garbage-collection)
+      - [**is vs ==**](#is-vs-)
+    - [**Data Types in Python**](#data-types-in-python)
+      - [**Fundamental Category data type**](#fundamental-category-data-type)
+        - [**int**](#int)
+          - [**Integer Immutability**](#integer-immutability)
+          - [**Cached Integer**](#cached-integer)
+          - [**Integer Caching**](#integer-caching-1)
+          - [**Object Referencing**](#object-referencing)
+          - [**Reference Assignment**](#reference-assignment-1)
+          - [**Separate Object Creation**](#separate-object-creation)
+          - [**Integer Caching OR Small Integer Caching and also related to Object Interning**](#integer-caching-or-small-integer-caching-and-also-related-to-object-interning)
+          - [**Object Referencing OR Reference Assignment**](#object-referencing-or-reference-assignment)
+          - [**No Integer Caching OR Separate Object Creation**](#no-integer-caching-or-separate-object-creation)
+          - [**is vs ==**](#is-vs--1)
+          - [**Garbage Collection Relation**](#garbage-collection-relation)
+          - [**Type Casting to int**](#type-casting-to-int)
+        - [**float**](#float)
+          - [**Float Immutability**](#float-immutability)
+          - [**Possible Float Object Reuse OR Interpreter Optimization**](#possible-float-object-reuse-or-interpreter-optimization)
+          - [**Reference Assignment**](#reference-assignment-2)
+          - [**Scientific Notation**](#scientific-notation)
+          - [**Float precision issue**](#float-precision-issue)
+          - [**is vs ==**](#is-vs--2)
+          - [**Type casting to float**](#type-casting-to-float)
+        - [**bool**](#bool)
+          - [**Boolean Immutability**](#boolean-immutability)
+          - [**Object Referencing OR Shared Object Referencing OR Singleton Boolean Objects OR Object Reuse**](#object-referencing-or-shared-object-referencing-or-singleton-boolean-objects-or-object-reuse)
+          - [**Reference Assignment**](#reference-assignment-3)
+          - [**bool-int relationship OR bool() type casting OR Shared object referencing**](#bool-int-relationship-or-bool-type-casting-or-shared-object-referencing)
+          - [**Arithmetic operations on bool values return int results**](#arithmetic-operations-on-bool-values-return-int-results)
+          - [**is vs ==**](#is-vs--3)
+          - [**Type Casting to bool**](#type-casting-to-bool)
+          - [**Truthy Values**](#truthy-values)
+          - [**Falsy Values**](#falsy-values)
+        - [**complex**](#complex)
+          - [**Complex datatype representation**](#complex-datatype-representation)
+          - [**Complex Immutability**](#complex-immutability)
+          - [**Separate Object Creation OR Object Referencing**](#separate-object-creation-or-object-referencing)
+          - [**Reference Assignment**](#reference-assignment-4)
+          - [**Real and Imaginary parts**](#real-and-imaginary-parts)
+          - [**Two-Argument complex()**](#two-argument-complex)
+          - [**is vs ==**](#is-vs--4)
+          - [**No ordering comparison**](#no-ordering-comparison)
+          - [**Type Casting to complex**](#type-casting-to-complex)
+          - [**Complex values do not support direct int/float conversion**](#complex-values-do-not-support-direct-intfloat-conversion)
+          - [**Complex literals do not support spaces inside string conversion**](#complex-literals-do-not-support-spaces-inside-string-conversion)
+      - [**Sequence Category data type**](#sequence-category-data-type)
+        - [**str**](#str)
+          - [**Types of str**](#types-of-str)
+          - [**Immutability type**](#immutability-type)
+          - [**Operations on str data**](#operations-on-str-data)
+          - [**Concatenation**](#concatenation)
+          - [**With Space**](#with-space)
+          - [**String Repetition**](#string-repetition)
+          - [**Membership Operators**](#membership-operators)
+          - [**Escape Characters**](#escape-characters)
+          - [**String memory behavior**](#string-memory-behavior)
+          - [**String References**](#string-references)
+          - [**String formatting**](#string-formatting)
+          - [**Unicode \& ASCII Basics**](#unicode--ascii-basics)
+          - [**is vs ==**](#is-vs--5)
+          - [**Strings cannot be modified using indexing**](#strings-cannot-be-modified-using-indexing)
+          - [**String Methods**](#string-methods)
+        - [**List Category data type**](#list-category-data-type)
+        - [**Set Category data type**](#set-category-data-type)
+        - [**Dict Category data type**](#dict-category-data-type)
+        - [**None Category data type**](#none-category-data-type)
 
 
 ---
 
-### **Programming Fundamentals**
+# **Programming Fundamentals**
 
-#### **Introduction to Programming**
+## **Introduction to Programming**
 
-##### **Programming**
+### **Programming**
 
 **What is Programming?**
 
@@ -153,16 +154,16 @@ Hey everybody!!!
 - *It only follows instructions.*
 - *Those instructions are called a program and the process of writing those instructions is called Programming.*
 
-**Example:** *Imagine you are teaching a robot to make tea.*
+    **Example:** *Imagine you are teaching a robot to make tea.*
 
-*You must tell it:*
-1. *Take a cup*
-2. *Boil water*
-3. *Add tea powder*
-4. *Add sugar*
-5. *Pour into cup*
-  
-  *The robot will follow only the instructions you provide. Similarly, a computer follows instructions written by a programmer.*
+    *You must tell it:*
+    1. *Take a cup*
+    2. *Boil water*
+    3. *Add tea powder*
+    4. *Add sugar*
+    5. *Pour into cup*
+      
+    *The robot will follow only the instructions you provide. Similarly, a computer follows instructions written by a programmer.*
 
 ---
 
@@ -212,7 +213,7 @@ Hey everybody!!!
 
 ---
 
-##### **Program**
+### **Program**
 
 **What is a Program?**
 
@@ -297,7 +298,7 @@ Hey everybody!!!
 
 ---
 
-##### **Coding**
+### **Coding**
 
 **What is Coding**
 
@@ -347,7 +348,7 @@ Hey everybody!!!
 
 ---
 
-##### **Software vs Hardware**
+### **Software vs Hardware**
 
 **Hardware:** *Hardware refers to the physical components of a computer that you can see and touch.*
 
@@ -422,7 +423,7 @@ Hey everybody!!!
 
 ---
 
-##### **Compiler**
+### **Compiler**
 
 **Problem:** *Computers understand only 0 and 1. This is called Machine Learning and Machine Code.*
 
@@ -481,7 +482,7 @@ Hey everybody!!!
 
 ---
 
-##### **Interpreter**
+### **Interpreter**
 
 **Interpreter:** *An Interpreter is a software program that translates and executes source code one line at a time.*
 
@@ -538,7 +539,7 @@ print(a+b)
 
 ---
 
-##### **High-Level Languages**
+### **High-Level Languages**
 
 **High-Level Language:** *A High-Level Language(HLL) is a programming language that is easy for humans to read, write and understand. It uses english-like words and symbols instead of binary (0s and 1s).*
 
@@ -614,7 +615,7 @@ print(a+b)
 
 ---
 
-##### **Low-Level Language**
+### **Low-Level Language**
 
 **Low-Level Language:** *A Low-Level Language is a programming language that is very close to the computer's hardware and machine language. It is not easy for humans but it is easy for the computer to understand.*
 
@@ -711,7 +712,7 @@ print(a+b)
 
 ---
 
-##### **Machine Language**
+### **Machine Language**
 
 - *Machine Language is the lowest-level programming language that consists only of binary digits (0 and 1).*
 - *It is the only language that a computer's CPU can directly understand and execute.*
@@ -792,7 +793,7 @@ print(a+b)
 
 ---
 
-##### **Assembly Language**
+### **Assembly Language**
 
 **What is Assembly Language?**
 
@@ -898,7 +899,7 @@ print(a+b)
 
 ---
 
-##### **Procedural Programming**
+### **Procedural Programming**
 
 **What is a Programming Paradigm?**
 
@@ -1091,7 +1092,7 @@ print(square(20))              # 400
 
 ---
 
-##### **Object-Oriented Programming (OOP)**
+### **Object-Oriented Programming (OOP)**
 
 **What is Object-Oriented Programming?**
 
@@ -1230,7 +1231,7 @@ print(square(20))              # 400
 
 ---
 
-##### **Why Python?**
+### **Why Python?**
 
 **What is Python?**
 
@@ -1369,9 +1370,9 @@ print("Hello")
 
 ---
 
-#### **Algorithm Fundamentals**
+## **Algorithm Fundamentals**
 
-##### **Algorithm**
+### **Algorithm**
 
 **What is an Algorithm?**
 
@@ -1446,7 +1447,7 @@ print("Hello")
 
 ---
 
-##### **Characteristics of a good algorithm**
+### **Characteristics of a good algorithm**
 
 *A good algorithm should have 5 characteristics:*
 
@@ -1486,7 +1487,7 @@ print("Hello")
 
 ---
 
-##### **Writing Algorithms**
+### **Writing Algorithms**
 
 **What is Writing an Algorithm?**
 
@@ -1570,9 +1571,9 @@ Stop
 
 ---
 
-#### **Flowcharts**
+## **Flowcharts**
 
-##### **Flowchart Basics**
+### **Flowchart Basics**
 
 **What is a Flowchart?**
 
@@ -1612,7 +1613,7 @@ Stop
 
 ---
 
-##### **Flowchart Symbols**
+### **Flowchart Symbols**
 
 **What are Flowchart Symbols?**
 
@@ -1696,7 +1697,7 @@ Stop
 
 ---
 
-##### **Loops in Flowcharts**
+### **Loops in Flowcharts**
 
 **What is a Loop?**
 
@@ -1750,7 +1751,7 @@ print ('Hello')
 
 ---
 
-#### **Pseudocode**
+## **Pseudocode**
 
 **What is Pseudocode?**
 
@@ -1855,17 +1856,17 @@ END
 
 ---
 
-### **Python Fundamentals**
+# **Python Fundamentals**
 
-#### **Introduction to Python**
+## **Introduction to Python**
 
-##### **What is Python?**
+### **What is Python?**
 
 *Python is a high-level, interpreted, object-oriented, and general-purpose programming language known for its simple syntax, readability, and versatility. It is widely used in web development, automation, data analysis, artificial intelligence, machine learning and many other fields.*
 
 ---
 
-##### **History of Python**
+### **History of Python**
 
 **Who created Python?**
 
@@ -1908,7 +1909,7 @@ END
 
 ---
 
-##### **Features of Python**
+### **Features of Python**
 
 **What are Features?**
 
@@ -2010,7 +2011,7 @@ END
 
 ---
 
-##### **Applications of Python**
+### **Applications of Python**
 
 **What are Applications of Python?**
 
@@ -2079,7 +2080,7 @@ END
 
 ---
 
-##### **Python Versions**
+### **Python Versions**
 
 **What is a Version?**
 
@@ -2135,7 +2136,7 @@ END
 
 ---
 
-##### **Python Distributions**
+### **Python Distributions**
 
 
 **Python Distribution:** *A Python Distribution is a customized version of python created to serve a specific need. Because Python is open source, developers can modify it and create their own distributions.*
@@ -2176,7 +2177,7 @@ END
   
 --- 
 
-##### **Python Execution Environment**
+### **Python Execution Environment**
 
 **What is Python Execution Environment?**
 
@@ -2217,7 +2218,7 @@ END
 
 ---
 
-##### **Python Compiler**
+### **Python Compiler**
 
 **What is the Python Compiler?**
 
@@ -2250,7 +2251,7 @@ END
 
 ---
 
-##### **Python Interpreter**
+### **Python Interpreter**
 
 **What is a Python Interpreter?**
 
@@ -2299,7 +2300,7 @@ END
 
 ---
 
-##### **Bytecode**
+### **Bytecode**
 
 **What is Bytecode?**
 
@@ -2331,7 +2332,7 @@ END
 
 ---
 
-##### **Python Virtual Machine (PVM)**
+### **Python Virtual Machine (PVM)**
 
 **What is Python Virtual Machine (PVM)?**
 
@@ -2377,7 +2378,7 @@ END
 
 ---
 
-##### **Python Runtime Environment**
+### **Python Runtime Environment**
 
 **What is Python Runtime Environment?**
 
@@ -2416,6 +2417,36 @@ END
 5. **Operating System Support:** *The Runtime Environment communicates with the operating system like Writing files, Reading files, Displaying output, Taking keyboard input.*
 
 ---
+
+### **Interactive Mode vs Script Mode**
+
+**What is Interactive Mode?**
+
+*Interactive Mode is a way of executing Python code line by line, where each statement is executed immediately after it is entered.*
+
+---
+
+**Why is it called Interactive Mode?**
+
+*Because the user and Python interact directly.*
+
+*You type a statement → Python executes it immediately → Python displays the result.*
+
+  **Example:**
+
+  ```python
+  >>> 5+3
+  8
+
+  >>> print("Hey")
+  Hey
+  ```
+
+*You don't need to save the program.*
+
+---
+
+**Advantages of **
 
 
 

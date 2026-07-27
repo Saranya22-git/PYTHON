@@ -44,6 +44,7 @@ Hey everybody!!!
     - [**Python Runtime Environment**](#python-runtime-environment)
     - [**Interactive Mode vs Script Mode**](#interactive-mode-vs-script-mode)
     - [**Python Shell (REPL)**](#python-shell-repl)
+    - [**Installing Python and IDLE**](#installing-python-and-idle)
     - [**Python Program Structure**](#python-program-structure)
       - [**Keywords**](#keywords)
       - [**Identifiers**](#identifiers)
@@ -2561,6 +2562,94 @@ Haloooo
 - *Interactive Mode = Method of execution*
 
 ---
+
+### **Installing Python and IDLE**
+
+**What is Python Installation?**
+
+*Python Installation is the process of setting up the Python Interpreter and related tools on a computer so that Python programs can be written and executed.*
+
+---
+
+**Steps to Install Python (Windows)**
+
+**Step-1:** *Open your Browser. Go to the official website https://www.python.org*
+
+**Step-2:** *Click Downloads. Python automatically detects your operating system and suggests the latest stable version.*
+
+**Step-3:** *Open the downloaded installer. You will see a setup window.*
+
+**Step-4:** *Check the checkbox ☑ Add Python to PATH*
+
+**Why is this important?**
+
+*PATH is an environment variable. When Python is added to PATH, you can run Python from Command Prompt or Terminal.*
+
+```txt
+Python
+```
+
+or
+
+```txt
+python --version
+```
+
+*If you don't check this option, Windows won't recognize the Python command unless you manually configure the PATH later*
+
+**Step-5:** *Click Install now. Python and IDLE will be installed*
+
+**Step-6:** *Wait until installation finishes. You should see **Setup was successful**.*
+
+**Step-7:** *Click Close. Installation is complete.*
+
+---
+
+**How to check whether Python is Installed?**
+
+*Open Command Prompt. Type **python --version***
+
+**Example output:** *Python 3.13.5 or on some systems python3 --version*
+
+---
+
+**What gets Installed?**
+
+*When you install Python, you get*
+- *Python Interpreter*
+- *Python Standard Library*
+- *IDLE*
+- *pip (Python Package Installer)*
+
+---
+
+**What is IDLE?**
+
+- *IDLE (Integrated Development and Learning Environment) is the default IDE that comes with Python and provides both the Python Shell and a Script Editor.*
+- *It helps you Write Python code, Run Python programs, Use the Python Shell, Save Python files.*
+
+---
+
+**Two parts of IDLE**
+
+1. **Python Shell:** *Used for Interactive Mode.*
+2. **Script Editor:** *Create a new file*
+
+---
+
+**Features of IDLE**
+
+- *Python Shell (Interactive Mode)*
+- *Script Editor*
+- *Syntax Highlighting*
+- *Auto Indentation*
+- *Error Messages*
+- *Basic Debugging*
+
+---
+
+
+
 
 
 

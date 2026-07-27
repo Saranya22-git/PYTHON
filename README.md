@@ -2532,9 +2532,19 @@ Haloooo
    ```
   *The Shell read 10+10*
 
-- **E → Evaluate**
-- **P → Print**
-- **L → Loop**
+- **E → Evaluate:** *Python evaluates (processes) the expression*
+
+   *10+10 → 20*
+
+- **P → Print:** *The result is displayed on the screen*
+ 
+   *30*
+
+- **L → Loop:** *Python waits for the next command*
+
+   ```python
+   >>>
+   ```
 
 
 

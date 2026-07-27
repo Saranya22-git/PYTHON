@@ -2648,6 +2648,23 @@ python --version
 
 ---
 
+**Popular Python IDEs**
+
+1. *IDLE*
+2. *VS Code*
+3. *PyCharm*
+4. *Jupyter Notebook*
+
+| IDE              | Best For                                  | 
+| ---------------- | ----------------------------------------- | 
+| IDLE             | Learning Python                           | 
+| VS Code          | General Python & Professional Development | 
+| PyCharm          | Large Python Projects                     |
+| Jupyter Notebook | Data Science & ML                         | 
+
+---
+
+
 
 
 

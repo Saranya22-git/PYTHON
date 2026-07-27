@@ -2525,12 +2525,13 @@ Haloooo
 
 *REPL stands for*
 - **R → Read:** *The Python Shell reads the statement you type.*
+  
   **Example:** 
    ```python
    >>> 10+10
    ```
   *The Shell read 10+10*
-  
+
 - **E → Evaluate**
 - **P → Print**
 - **L → Loop**

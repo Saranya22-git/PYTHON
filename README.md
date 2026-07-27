@@ -154,16 +154,16 @@ Hey everybody!!!
 - *It only follows instructions.*
 - *Those instructions are called a program and the process of writing those instructions is called Programming.*
 
-      **Example:** *Imagine you are teaching a robot to make tea.*
+    **Example:** *Imagine you are teaching a robot to make tea.*
 
-      *You must tell it:*
-      1. *Take a cup*
-      2. *Boil water*
-      3. *Add tea powder*
-      4. *Add sugar*
-      5. *Pour into cup*
-        
-      *The robot will follow only the instructions you provide. Similarly, a computer follows instructions written by a programmer.*
+    *You must tell it:*
+    1. *Take a cup*
+    2. *Boil water*
+    3. *Add tea powder*
+    4. *Add sugar*
+    5. *Pour into cup*
+      
+    *The robot will follow only the instructions you provide. Similarly, a computer follows instructions written by a programmer.*
 
 ---
 
@@ -223,16 +223,16 @@ Hey everybody!!!
   - *How to do it*
   - *When to do it*
 
-**Example:** *Imagine a recipe for making biryani.*
+  **Example:** *Imagine a recipe for making biryani.*
 
-*The recipe contains steps:*
-1. *Wash rice*
-2. *Cook rice*
-3. *Prepare masala*
-4. *Mix ingredients*
-5. *Serve*
+  *The recipe contains steps:*
+  1. *Wash rice*
+  2. *Cook rice*
+  3. *Prepare masala*
+  4. *Mix ingredients*
+  5. *Serve*
 
-*The recipe is a set of instructions.*
+  *The recipe is a set of instructions.*
 
 ---
 

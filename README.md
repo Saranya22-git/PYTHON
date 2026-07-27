@@ -2546,6 +2546,21 @@ Haloooo
    >>>
    ```
 
+---
+
+**Are Interactive Mode and Python Shell the same?**
+
+*Almost but*
+
+**Interactive Mode:** *It is a way of working. It means executing code line by line.*
+
+**Python Shell:** *It is the program/interface that provides Interactive Mode.*
+
+*So*
+- *Python Shell = Tool/Interface*
+- *Interactive Mode = Method of execution*
+
+---
 
 
 

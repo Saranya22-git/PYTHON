@@ -304,24 +304,24 @@ Hey everybody!!!
 
 - *Coding is the process of converting logic, algorithms, or solutions into a programming language that a computer can understand and execute.*
   
-**Example:** *Imagine your teacher asks **Find the sum of two numbers**.*
+  **Example:** *Imagine your teacher asks **Find the sum of two numbers**.*
 
-**Step-1:** *Think of the logic*
-- *Take first number*
-- *Take second number*
-- *Add them*
-- *Display result*
+  **Step-1:** *Think of the logic*
+  - *Take first number*
+  - *Take second number*
+  - *Add them*
+  - *Display result*
 
-*This is Logic.*
+  *This is Logic.*
 
 **Step-2:** *Convert Logic into Python*
- ```python
- a=10
- b=20
- print(a+b)
- ```
+  ```python
+  a=10
+  b=20
+  print(a+b)
+  ```
 
-*This conversion of logic into Python code is called Coding.*
+  *This conversion of logic into Python code is called Coding.*
 
 ---
 

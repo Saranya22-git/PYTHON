@@ -43,6 +43,7 @@ Hey everybody!!!
     - [**Python Virtual Machine (PVM)**](#python-virtual-machine-pvm)
     - [**Python Runtime Environment**](#python-runtime-environment)
     - [**Interactive Mode vs Script Mode**](#interactive-mode-vs-script-mode)
+    - [**Python Shell (REPL)**](#python-shell-repl)
     - [**Python Program Structure**](#python-program-structure)
       - [**Keywords**](#keywords)
       - [**Identifiers**](#identifiers)
@@ -2446,7 +2447,96 @@ END
 
 ---
 
-**Advantages of **
+**Advantages of Interactive Mode**
+
+- *Immediate Output*
+- *Good for beginners*
+- *useful for testing small pieces of code*
+- *No need to create a .py file*
+
+**Disadvantages of Interactive Mode**
+
+- *Code is not saved automatically*
+- *Not suitable for large programs*
+- *Difficult to manage long projects*
+
+---
+
+**What is Script Mode?**
+
+*Script Mode is a way of writing Python programs in a .py file, saving them, and executing the entire program.*
+
+---
+
+**How does Script Mode work?**
+
+**Example:** *Create a file named **hello.py** and Write*
+
+```python
+print("Hey")
+print("Hi")
+print("Haloooo")
+```
+
+*Save the file. Run the file.*
+
+**Output:**
+```txt
+Hey
+Hi
+Haloooo
+```
+
+**Advantages of Script Mode**
+
+- *Code is saved permanently*
+- *Suitable for large applications*
+- *Easy to edit and reuse*
+- *Better for projects and software development*
+
+**Disadvantages of Script Mode**
+
+- *You need to save the file before running it*
+- *Slightly slower for quick experiments compared to Interactive mode*
+
+---
+
+**Interactive Mode vs Script Mode**
+
+| Interactive Mode                | Script Mode                           |
+| ------------------------------- | ------------------------------------- |
+| Executes one line at a time     | Executes the entire file              |
+| No need to save code            | Code is saved in a `.py` file         |
+| Immediate output                | Output after running the file         |
+| Good for learning and testing   | Good for real applications            |
+| Not suitable for large programs | Suitable for small and large programs |
+
+---
+
+### **Python Shell (REPL)**
+
+**What is Python Shell?**
+
+*Python Shell is an interactive environment where Python statements are entered and executed immediately. It provides a command-line interface to interact with the Python Interpreter.*
+
+---
+
+**Why is it called REPL?**
+
+*REPL stands for*
+- **R → Read:** *The Python Shell reads the statement you type.*
+  **Example:** 
+   ```python
+   >>> 10+10
+   ```
+  *The Shell read 10+10*
+  
+- **E → Evaluate**
+- **P → Print**
+- **L → Loop**
+
+
+
 
 
 

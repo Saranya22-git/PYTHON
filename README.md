@@ -352,39 +352,39 @@ Hey everybody!!!
 
 **Hardware:** *Hardware refers to the physical components of a computer that you can see and touch.*
 
-**Examples of Hardware:**
+  **Examples of Hardware:**
 
-**Input devices**
-- *Keyboard*
-- *Mouse*
-- *Webcam*
-- *Scanner*
+  **Input devices**
+  - *Keyboard*
+  - *Mouse*
+  - *Webcam*
+  - *Scanner*
 
-**Output devices**
-- *Monitor*
-- *Printer*
-- *Speakers*
+  **Output devices**
+  - *Monitor*
+  - *Printer*
+  - *Speakers*
 
-**Processing Devices**
-- *CPU*
-- *GPU*
+  **Processing Devices**
+  - *CPU*
+  - *GPU*
 
-**Storage Devices**
-- *Hard Disk (HDD)*
-- *SSD*
-- *Pen Drive*
-- *Memory Card*
+  **Storage Devices**
+  - *Hard Disk (HDD)*
+  - *SSD*
+  - *Pen Drive*
+  - *Memory Card*
 
 **Software:** *Software is a collection of programs and instructions that tell hardware what to do.*
 
-**Examples of Software:**
-  - *Windows*
-  - *Android*
-  - *Instagram*
-  - *YouTube*
-  - *WhatsApp*
-  - *Microsoft Excel*
-  - *Google Chrome*
+  **Examples of Software:**
+    - *Windows*
+    - *Android*
+    - *Instagram*
+    - *YouTube*
+    - *WhatsApp*
+    - *Microsoft Excel*
+    - *Google Chrome*
 
 *Without software, hardware is useless.*
 *Without hardware, software cannot run.*

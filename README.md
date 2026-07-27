@@ -314,14 +314,14 @@ Hey everybody!!!
 
   *This is Logic.*
 
-**Step-2:** *Convert Logic into Python*
-  ```python
-  a=10
-  b=20
-  print(a+b)
-  ```
+  **Step-2:** *Convert Logic into Python*
+    ```python
+    a=10
+    b=20
+    print(a+b)
+    ```
 
-  *This conversion of logic into Python code is called Coding.*
+    *This conversion of logic into Python code is called Coding.*
 
 ---
 

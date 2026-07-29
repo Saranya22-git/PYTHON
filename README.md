@@ -50,7 +50,7 @@ Hey everybody!!!
       - [**Keywords (Reserved Words)**](#keywords-reserved-words)
       - [**Keywords (Keyword Module)**](#keywords-keyword-module)
     - [**Identifiers**](#identifiers)
-      - [**Variables**](#variables)
+    - [**Variables**](#variables)
       - [**Rules for Identifiers/Variables in Python Programming:**](#rules-for-identifiersvariables-in-python-programming)
       - [**Comments**](#comments)
         - [**Single-Line Comment**](#single-line-comment)
@@ -2936,31 +2936,59 @@ import math
 
 ---
 
+### **Variables**
 
+*A Variable is an identifier that refers to a value in memory. It is used to store and manipulate data during program execution.*
 
+---
 
+**Creating a Variable**
 
+*Creating a Variable in python is simple.*
 
-#### **Variables**
+**Syntax:**
 
-- *A Variable is a memory container used to store data temporarily during program execution.*
-- *In Python, variables store references to objects not actual values directly.*
+```python
+variable_name=value
+```
+
+---
+
+**How does Variable Assignment Work?**
+
+**Example:** *age=22*
+
+*Python performs these steps*
+1. *Creates the integer object 22*
+2. *Creates the variable age*
+3. *Associates (binds) age with the value 22*
+
+---
+
+**Using Variables**
+
+```python
+name="Saran"
+print(name)           # Saranya
+```
+
+---
+
+**Changing a Variable (Reassignment)**
+
+*Variables can be assigned a new value.*
 
 **Example:**
-```python
- age=20
-```
-*Here age is Variable name(Identifier) and 20 is Value stored in memory.*
 
-**Importance:**
-*Variables and Identifiers are extremely important because they help programs:*
-- *Store data*
-- *Process data*
-- *Reuse data*
-- *Manipulate data*
-- *Make programs dynamic*
-  
-  *Without Variables, programming is almost impossible.*
+```python
+marks=98
+
+marks=100
+
+print(marks)            100
+```
+
+*The previous value is replaced by the new assignment.*
 
 ---
 

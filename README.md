@@ -2697,19 +2697,19 @@ global  nonlocal
 
 1. **Reserved by Python:** *They are reserved fpr specific purposes*
 
-  **Example:** *```if``` always represents a conditional statement.*
+    **Example:** *```if``` always represents a conditional statement.*
 
 2. **Have a Fixed Meaning:** *Their meaning cannot be changed.*
 
-  **Example:** *```while``` will always represent a loop.*
+    **Example:** *```while``` will always represent a loop.*
 
 3. **Cannot be Used as Identifiers:** *This means they cannot be used as Variable names, Function names, Class names, Module Names.*
 
-  **Example:** ```class=10```, ```return=5```
+    **Example:** ```class=10```, ```return=5```
 
 4. **Case-Sensitive:** *Keywords must be written exactly as defined.*
 
-  **Example:** *```if``` is a Keyword but If is not a keyword. Similarly, ```True``` is a Keyword true is not.*
+    **Example:** *```if``` is a Keyword but If is not a keyword. Similarly, ```True``` is a Keyword true is not.*
 
 ---
 
@@ -2724,7 +2724,7 @@ global  nonlocal
   math  random  datetime
   os keyword
   ```
-  
+
 
 ---
 #### **Identifiers**

@@ -45,8 +45,8 @@ Hey everybody!!!
     - [**Interactive Mode vs Script Mode**](#interactive-mode-vs-script-mode)
     - [**Python Shell (REPL)**](#python-shell-repl)
     - [**Installing Python and IDLE**](#installing-python-and-idle)
-    - [**Python Program Structure**](#python-program-structure)
-      - [**Keywords**](#keywords)
+  - [**Python Program Structure**](#python-program-structure)
+    - [**Keywords**](#keywords)
       - [**Identifiers**](#identifiers)
       - [**Variables**](#variables)
       - [**Rules for Identifiers/Variables in Python Programming:**](#rules-for-identifiersvariables-in-python-programming)
@@ -2664,27 +2664,27 @@ python --version
 
 ---
 
+## **Python Program Structure**
 
+### **Keywords**
 
+**What are Keywords?**
 
+*Keywords are reserved words in Python with predefined meanings. They are part of Python's syntax and cannot be used as identifiers such as Variable Names, Function Names or Class Names.*
 
+---
 
+**Examples of Keywords**
 
+*Some commonly used Python Keywords are*
 
+```txt
+if else elif for while break continue pass def return class import try except finally raise True False None and or not in is with yield lambda global nonlocal
+```
 
+---
 
-### **Python Program Structure**
-
-#### **Keywords**
-
-- *Keywords are reserved words in Python that already have predefined meaning.*
-- *Python interpreter already understands them so we should not use keywords as variable names.*
-
-**Examples of Keywords:**
-
-*False    None    True    and   as    assert    async        await    break   class   continue    def   del  elif  else  except  finally  for  from  global  if  import  in  is  lambda  nonlocal  not  or  pass  raise  return  try  while  with  yield*
-
-**How to see all Keywords:**
+**How to see all Keywords**
 
 ```python
 import keyword

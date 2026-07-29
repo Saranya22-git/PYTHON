@@ -51,6 +51,7 @@ Hey everybody!!!
       - [**Keywords (Keyword Module)**](#keywords-keyword-module)
     - [**Identifiers**](#identifiers)
     - [**Variables**](#variables)
+      - [**Variable Creation**](#variable-creation)
       - [**Comments**](#comments)
         - [**Single-Line Comment**](#single-line-comment)
         - [**Multi-Line Comment**](#multi-line-comment)
@@ -3004,6 +3005,130 @@ is_employed=False
 ```
 
 *Here, name → String, age → Integer, height → Float, is_employed → Boolean.*
+
+---
+
+#### **Variable Creation**
+
+**What is Variable Creation?**
+
+*Variable Creation is the process of binding an identifier to an object using the assignment operator (=).*
+
+---
+
+**Method-1:** *Single Variable Assignment*
+
+**Syntax**
+
+```python
+variable=value
+```
+
+**Example:**
+
+```python
+name="Saranya"
+
+age=10
+```
+
+**Method-2:** *Multiple Variable Assignment*
+
+*You can assign values to multiple variables in one statement.*
+
+**Syntax**
+
+```python
+variable1, variable2, variable3=value1, value2, value3
+```
+
+**Example:**
+
+```python
+name, age, city="Saranya", 10, "Elr"
+```
+
+---
+
+**Number of Variables must match**
+
+```python
+a,b=10,20
+```
+
+**Method-3:** *Chained Assignment*
+
+*Sometimes you want multiple variables to have the same value.*
+
+**Syntax**
+
+```python
+a=b=c=value
+```
+
+**Example:**
+
+```python
+a=b=c=100
+```
+
+**Method-4:** *Sequence Unpacking*
+
+*Python can unpack values from a list or tuple.*
+
+**Example with list:**
+
+```python
+numbers=[10,20,30]
+
+a,b,c=numbers
+
+print(a)              # 10
+print(b)              # 20
+print(c)              # 30
+```
+
+**Example with Tuple:**
+
+```python
+student=("Saran",10)
+
+name,age=student
+
+print(name)           # Saran
+print(age)            # 10
+```
+
+**Method-5:** *Extended Unpacking*
+
+*Sometimes you don't know how many values remain. Use ```*```*
+
+**Example:**
+
+```python
+a, *b=[10,20,30,40]
+
+print(a)              # 10
+print(b)              # [20,30,40]
+```
+
+```python
+a,*b,c=[1,2,3,4,5]
+
+print(a)              # 1
+print(b)              # [2,3,4]
+print(c)              # 5
+```
+
+**Method-6:** *Assigning Expressions*
+
+*Variables can store the result of an expression.*
+
+```python
+x=10+20
+
+print(x)              # 30
+```
 
 ---
 

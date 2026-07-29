@@ -47,6 +47,8 @@ Hey everybody!!!
     - [**Installing Python and IDLE**](#installing-python-and-idle)
   - [**Python Program Structure**](#python-program-structure)
     - [**Keywords**](#keywords)
+      - [**Keywords (Reserved Words)**](#keywords-reserved-words)
+      - [**Keywords (Keyword Module)**](#keywords-keyword-module)
       - [**Identifiers**](#identifiers)
       - [**Variables**](#variables)
       - [**Rules for Identifiers/Variables in Python Programming:**](#rules-for-identifiersvariables-in-python-programming)
@@ -2668,6 +2670,8 @@ python --version
 
 ### **Keywords**
 
+#### **Keywords (Reserved Words)**
+
 **What are Keywords?**
 
 *Keywords are reserved words in Python with predefined meanings. They are part of Python's syntax and cannot be used as identifiers such as Variable Names, Function Names or Class Names.*
@@ -2687,13 +2691,42 @@ global  nonlocal
 
 ---
 
-**How to see all Keywords**
+**Characteristics of Keywords**
 
-```python
-import keyword
-print(keyword.kwlist)
-```
+*Keywords have the following properties*
 
+1. **Reserved by Python:** *They are reserved fpr specific purposes*
+
+  **Example:** *```if``` always represents a conditional statement.*
+
+2. **Have a Fixed Meaning:** *Their meaning cannot be changed.*
+
+  **Example:** *```while``` will always represent a loop.*
+
+3. **Cannot be Used as Identifiers:** *This means they cannot be used as Variable names, Function names, Class names, Module Names.*
+
+  **Example:** ```class=10```, ```return=5```
+
+4. **Case-Sensitive:** *Keywords must be written exactly as defined.*
+
+  **Example:** *```if``` is a Keyword but If is not a keyword. Similarly, ```True``` is a Keyword true is not.*
+
+---
+
+#### **Keywords (Keyword Module)**
+
+**What is a Module?**
+
+- *A Module is a Python file that contains predefined functions, variables, or classes that can be used in your program.*
+- *Python provides many built-in modules*
+- **Examples:** 
+  ```txt
+  math  random  datetime
+  os keyword
+  ```
+  
+
+---
 #### **Identifiers**
 
 *An identifier is the name used to identify variables, functions, classes, modules, objects.*

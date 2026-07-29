@@ -49,7 +49,7 @@ Hey everybody!!!
     - [**Keywords**](#keywords)
       - [**Keywords (Reserved Words)**](#keywords-reserved-words)
       - [**Keywords (Keyword Module)**](#keywords-keyword-module)
-      - [**Identifiers**](#identifiers)
+    - [**Identifiers**](#identifiers)
       - [**Variables**](#variables)
       - [**Rules for Identifiers/Variables in Python Programming:**](#rules-for-identifiersvariables-in-python-programming)
       - [**Comments**](#comments)
@@ -2725,11 +2725,131 @@ global  nonlocal
   os keyword
   ```
 
+---
+
+**What is the Keyword Module?**
+
+*The Keyword Module is a built-in Python module used to access the list of Python Keywords and check whether a given word is a Keyword.*
 
 ---
-#### **Identifiers**
 
-*An identifier is the name used to identify variables, functions, classes, modules, objects.*
+**Importing the Module**
+
+*Before using any module, we import it.*
+
+```python
+import keyword
+```
+
+*Here, import → Keyword, keyword → Module Name*
+
+---
+
+**keyword.kwlist**
+
+*kwlist is a predefined list that contains all Python Keywords.*
+
+**Syntax**
+
+```python
+import keyword
+print(keyword.kwlist)
+```
+
+**Output:**
+
+```python
+['False', 'None', 'True', 'and', 'as', 'assert',
+'async', 'await', 'break', 'class', 'continue',
+'def', 'del', 'elif', 'else', 'except', 'finally',
+'for', 'from', 'global', 'if', 'import', 'in',
+'is', 'lambda', 'nonlocal', 'not', 'or', 'pass',
+'raise', 'return', 'try', 'while', 'with', 'yield',
+'match', 'case']
+```
+
+**keyword.iskeyword()**
+
+- *The iskeyword() function checks whether a word is Python Keyword.*
+- *It returns True → if it is a keyword, False → if it is not.*
+
+**Syntax**
+
+```python
+keyword.iskeyword(word)
+```
+
+**Example:**
+
+```python
+import keyword
+print(keyword.iskeyword("if"))      # True
+```
+
+---
+
+### **Identifiers**
+
+**What is an Identifier?**
+
+*An identifier is a user-defined name used to identify program elements such as variables, functions, classes, modules, and objects.*
+
+**Examples of Identifiers**
+
+**Variable:** *Identifier age*
+
+```python
+age=21              
+```
+
+**Function:** *Identifier greet*
+
+```python
+def greet():
+  print("Hello")
+```
+
+**Class:** *Identifier Student*
+
+```python
+class Student:
+  pass
+```
+
+**Module:** *Identifier math*
+
+```python
+import math
+```
+
+---
+
+**Rules for Naming Identifiers**
+
+**Rule-1:** *Must begin with a Letter or Underscore*
+
+  **Examples:** 
+
+  ```python
+  age="Saranya"
+  _age="Saranya"
+  ```
+
+**Rule-2:** *Can contain Letters, Digits and Underscores*
+
+**Examples:**
+
+```python
+student1
+
+roll_no
+
+marks2026
+
+total_marks
+```
+
+
 
 **Example:**
 ```python

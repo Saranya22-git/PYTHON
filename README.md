@@ -2678,6 +2678,7 @@ python --version
 
 *Some commonly used Python Keywords are*
 
+|-------|-------|----------|------|
 |  if   | else  |   elif   |  for |
 |-------|-------|----------|------|
 | while | break | continue | pass |

@@ -2837,25 +2837,109 @@ import math
 
 **Rule-2:** *Can contain Letters, Digits and Underscores*
 
-**Examples:**
+  **Examples:**
 
-```python
-student1
+  ```python
+  student1
 
-roll_no
+  roll_no
 
-marks2026
+  marks2026
 
-total_marks
-```
+  total_marks
+  ```
+
+**Rule-3:** *Cannot contain Spaces*
+
+  **Examples:**
+
+  ```python
+  student name="Ram"                # Wrong
+  student_name="Ram"                # Correct
+  ```
+
+**Rule-4:** *Cannot contain Special Characters*
+
+  **Invalid**
+
+  ```python
+  salary@
+
+  student#
+
+  price$
+  ```
+
+  *Allowed Special Character **_** Only the underscore _ is allowed.*
+
+**Rule-5:** *Cannot be a Keyword*
+
+  ```python
+  if=100
+  ```
+
+**Rule-6:** *Identifiers are Case-Sensitive*
+
+  *These are all different Age, AGE, age. Python treats them as three different identifiers.*
+
+---
+
+**Naming Conventions**
+
+- *Even though these names are valid a, x, abc, temp123. These are not descriptive.*
+- *Instead, use meaningful names student_name, employee_salary, total_marks*
+
+---
+
+**Python Naming Styles**
+
+**Snake Case:** *Python follows snake_case for Variables and Functions.*
+
+  ```python
+  student_name
+
+  total_marks
+
+  calculate_salary
+  ```
+
+**Pascal Case:** *Usually used for class names*
+
+  ```python
+  Student
+
+  BankAccount
+
+  EmployeeDetails
+  ```
+
+**UPPER_CASE:** *Usually used for constants (By convention)*
+
+  ```python
+  PI
+
+  MAX_SIZE
+
+  DEFAULT_TIMEOUT
+  ```
+
+---
+
+**Keywords vs Identifiers**
+
+| Keywords                       | Identifiers                                         |
+| ------------------------------ | --------------------------------------------------- |
+| Reserved by Python             | Created by programmer                               |
+| Fixed meaning                  | User-defined names                                  |
+| Cannot be changed              | Can be chosen freely (following rules)              |
+| Examples: `if`, `for`, `while` | Examples: `age`, `student_name`, `calculate_salary` |
+
+---
 
 
 
-**Example:**
-```python
-  student_name="Saranya"
-```
-*Here student_name is Identifier and "Saranya" is Value.*
+
+
 
 #### **Variables**
 

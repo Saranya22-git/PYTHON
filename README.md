@@ -51,7 +51,6 @@ Hey everybody!!!
       - [**Keywords (Keyword Module)**](#keywords-keyword-module)
     - [**Identifiers**](#identifiers)
     - [**Variables**](#variables)
-      - [**Rules for Identifiers/Variables in Python Programming:**](#rules-for-identifiersvariables-in-python-programming)
       - [**Comments**](#comments)
         - [**Single-Line Comment**](#single-line-comment)
         - [**Multi-Line Comment**](#multi-line-comment)
@@ -2992,47 +2991,19 @@ print(marks)            100
 
 ---
 
-#### **Rules for Identifiers/Variables in Python Programming:**
+**Variables can store different types of data**
 
-- **RULE-1:** *The Variable name is a combination of Alphabets, Digits and Special Symbol Underscore(_) only.*
-  
-- **RULE-2:** *The first letter of Variable must starts with either Alphabet or Underscore(_) only.*
+```python
+name="Saranya"
 
-  **Example:** 
-  ```python
-   >>> sal=34        # Valid
-   >>> sal__=34      # Valid
-   >>> 123sal=345    # Invalid
-   >>> sal1=34       # Valid
-   >>> &sal=34       # Invalid
-   >>> _sal=34       # Valid
-   >>> __=89         # Valid
-  ```
+age=10
 
-- **RULE-3:** *Within the variable name, special symbols are not allowed except underscore(_).*
+height=6.2
 
-  **Example:**
-  ```python
-   >>> emp_sal=9000  # Valid
-   >>> emp%sal=6789  # Invalid
-   >>> emp sal=9789  # Invalid
-  ```
+is_employed=False
+```
 
-- **RULE-4:** *We should not use Keywords as Variable names because Keywords are reserved words and they have contains some special meaning to the language compiler.*
-
-  **Example:**
-  ```python
-  >>> if=937   # Invalid
-  >>> _if=898  # Valid
-  ```
-
-- **RULE-5:** *All the variable names are case-sensitive.*
-  **Example:**
-  ```python
-  >>> AGE=90
-  >>> age=90
-  ```
-  *Both are different variables.*
+*Here, name → String, age → Integer, height → Float, is_employed → Boolean.*
 
 ---
 

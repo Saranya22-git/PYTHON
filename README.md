@@ -2679,7 +2679,7 @@ python --version
 *Some commonly used Python Keywords are*
 
 |             Keywords            |
-|-------|-------|----------|------|
+|---------------------------------|
 |  if   | else  |   elif   |  for |
 | while | break | continue | pass |
 |  def  | return|   class  |import|

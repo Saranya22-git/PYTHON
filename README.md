@@ -2678,12 +2678,12 @@ python --version
 
 *Some commonly used Python Keywords are*
 
-|-------|-------|----------|------|
+
 |  if   | else  |   elif   |  for |
-|-------|-------|----------|------|
 | while | break | continue | pass |
-|-------|-------|----------|------|
-|
+|  def  | return|   class  |import|
+|  try  |except | finally  | raise|
+
 
 ```txt
  def return class import try except finally raise True False None and or not in is with yield lambda global nonlocal

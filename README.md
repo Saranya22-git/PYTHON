@@ -162,16 +162,18 @@ OR
 
 - *Programming is the process of designing, writing, testing and maintaining instructions (called programs) that tell a cinputer how to perform specific tasks.*
 
-    **Example:** *Imagine you are teaching a robot to make tea.*
+---
 
-    *You must tell it:*
-    1. *Take a cup*
-    2. *Boil water*
-    3. *Add tea powder*
-    4. *Add sugar*
-    5. *Pour into cup*
+**Example:** *Imagine you are teaching a robot to make tea.*
+
+  *You must tell it:*
+  1. *Take a cup*
+  2. *Boil water*
+  3. *Add tea powder*
+  4. *Add sugar*
+  5. *Pour into cup*
       
-    *The robot will follow only the instructions you provide. Similarly, a computer follows instructions written by a programmer.*
+*The robot will follow only the instructions you provide. Similarly, a computer follows instructions written by a programmer.*
 
 ---
 
@@ -194,7 +196,7 @@ OR
 
 - **Web Development:** *Websites, E-commerce platforms.*
     
-     **Example:** *Amazon, Flipkart* 
+  **Example:** *Amazon, Flipkart* 
 
 - **Mobile Apps**
     

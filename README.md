@@ -1619,15 +1619,6 @@ Stop
 
 ---
 
-| Symbol         | Shape         | Purpose                  |
-| -------------- | ------------- | ------------------------ |
-| Terminator     | Oval          | Start / Stop             |
-| Process        | Rectangle     | Calculation / Processing |
-| Input / Output | Parallelogram | Read or Display Data     |
-| Decision       | Diamond       | Yes / No, True / False   |
-| Flow Line      | Arrow         | Direction of Flow        |
-| Connector      | Circle        | Connect Different Parts  |
-
 | Symbol | Purpose        |
 | ------ | -------------- |
 | ⬭      | Start / Stop   |

@@ -23,6 +23,7 @@ Hey everybody!!!
     - [**Algorithm**](#algorithm)
     - [**Characteristics of a good algorithm**](#characteristics-of-a-good-algorithm)
     - [**Writing Algorithms**](#writing-algorithms)
+    - [**Algorithm Design Basics**](#algorithm-design-basics)
   - [**Flowcharts**](#flowcharts)
     - [**Flowchart Basics**](#flowchart-basics)
     - [**Flowchart Symbols**](#flowchart-symbols)
@@ -441,7 +442,7 @@ print(a+b)
 
 ### **High-Level Languages**
 
-**High-Level Language:** *A High-Level Language(HLL) is a programming language that is easy for humans to read, write and understand. It uses english-like words and symbols instead of binary (0s and 1s).*
+**High-Level Language:** *A High-Level Language(HLL) is a programming language that is easy for humans to read, write and understand. It uses english-like words and symbols instead of binary (0s and 1s). It requires a translator(compiler or interpreter) to convert it into machine language.*
 
 ---
 
@@ -461,12 +462,14 @@ print(a+b)
 
 - *Python*
 - *Java*
+- *C*
 - *C#*
 - *Ruby*
 - *PHP*
 - *JavaScript*
 - *Swift*
 - *Kotlin*
+- *Go*
 
 *These languages are designed to be easy for programmers.*
 
@@ -722,6 +725,8 @@ print(a+b)
 | DIV      | Divide                      |
 | JMP      | Jump to another instruction |
 | CMP      | Compare values              |
+| INC      | Increment                   |
+| DEC      | Decrement                   |
 
 ---
 
@@ -1427,6 +1432,7 @@ print("Hello")
 
 **General Structure of an Algorithm**
 
+```txt
 Start
 
 ↓
@@ -1444,6 +1450,7 @@ Output
 ↓
 
 Stop
+```
 
 ---
 
@@ -1468,6 +1475,26 @@ Stop
 | Language independent | Language dependent       |
 | Planning stage       | Implementation stage     |
 | Easy to understand   | Executed by the computer |
+
+---
+
+### **Algorithm Design Basics**
+
+**What is Algorithm Design?**
+
+*Algorithm Design is the process of planning and organizing the steps required to solve a problem efficiently before writing the actual program.*
+
+---
+
+**The 4-Step Thinking Process**
+
+**Step 1 - Understand the Problem:** *Read the question carefully. For example, find the largest of 2 numbers.*
+
+**Step 2 - Identify the Input:** *What information do i need? For example, First Number Second Number.*
+
+**Step 3 - Identify the Process:** *What should i do with the input? For example, Compare both numbers. Find the larger one.*
+
+**Step 4 - Identify the Output:** *What should i display? For example, Largest number.*
 
 ---
 
@@ -1553,7 +1580,8 @@ Stop
     **Purpose:** *Used for Yes/No, True/False, Conditions.*
 
     **Example:** 
-
+    
+    ```txt
     Is A > B?
 
     ↓
@@ -1561,18 +1589,21 @@ Stop
     Yes → Display A
 
     No → Display B
+    ```
 
     *Whenever you use if, if-else you'll use the Decision Symbol.*
 
 5. **Flow Line**
 
     **Symbol:**
-
+    
+    ```txt
     ↓
 
     or
 
     ─►
+    ```
 
     **Purpose:** *Shows the direction of execution. It connects all symbols together.*
 
@@ -1580,7 +1611,9 @@ Stop
 
     **Symbol:** 
 
+    ```txt
     ○
+    ```
 
     **Purpose:** *Used to connect different parts of a flowchart. Useful when a flowchart becomes large. Instead of drawing a long arrow, we use connectors.*
 

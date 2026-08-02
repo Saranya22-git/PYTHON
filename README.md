@@ -1555,6 +1555,13 @@ Stop
     
     **Purpose:** *Used to represent Start, Stop(End). Every flowchart must begin with Start and must end with Stop.*
 
+    ```txt
+       _________
+     /         \
+    |  Start    |
+     \_________/
+    ```
+    
 2. **Process Symbol**
 
     **Symbol:** *Rectangle*

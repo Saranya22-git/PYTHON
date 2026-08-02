@@ -332,13 +332,15 @@ print(a+b)
 
 **Example:** 
 
+```txt
 10110011
 01010101
 11100010
+```
 
 - *Humans cannot easily write programs in this form. So we use languages like Python, Java, C, C++. These are easier for humans.*
 - *But the computer still understands only 0s and 1s. So we need a translator.*
-- *That translator is called a **Compiler.***
+- *That translator is called a ```Compiler```.*
 
 **Compiler:** *A compiler is a software program that translates the entire source code into machine code before execution.*
 
@@ -372,16 +374,13 @@ print(a+b)
 
 ---
 
-**Advantages of Compiler**
+**Characteristics of a Compiler**
 
-- **Faster Execution:** *Code is already translated. So execution is fast.*
-- **Error Checking:** *Compiler checks many errors before execution.*
-- **Optimized Code:** *Compiler can improve performance.*
-
-**Disadvantages of Compiler**
-
-- **Compilation Time:** *Large programs take time to compile.*
-- **Recompile Needed:** *Every change requires recompilation.*
+*A Compiler*
+- *Translates the entire program before execution*
+- *Reports errors after compiling the whole program*
+- *Produces machine code*
+- *Compiled programs generally execute faster after successful compilation*
 
 ---
 

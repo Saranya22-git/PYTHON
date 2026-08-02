@@ -158,9 +158,7 @@ Hey everybody!!!
 - *It only follows instructions.*
 - *Those instructions are called a program and the process of writing those instructions is called Programming.*
 
-```txt
 OR
-```
 
 - *Programming is the process of designing, writing, testing and maintaining instructions (called programs) that tell a cinputer how to perform specific tasks.*
 

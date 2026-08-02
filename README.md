@@ -29,6 +29,7 @@ Hey everybody!!!
     - [**Flowchart Symbols**](#flowchart-symbols)
     - [**Loops in Flowcharts**](#loops-in-flowcharts)
   - [**Pseudocode**](#pseudocode)
+    - [**Converting Pseudocode to Python**](#converting-pseudocode-to-python)
 - [**Python Fundamentals**](#python-fundamentals)
   - [**Introduction to Python**](#introduction-to-python)
     - [**What is Python?**](#what-is-python)
@@ -1652,6 +1653,8 @@ Stop
            Stop
 ```
 
+---
+
 ### **Loops in Flowcharts**
 
 **What is a Loop?**
@@ -1808,6 +1811,50 @@ END
 - *No fixed standard*
 - *Cannot be executed by a computer*
 - *Different people may write it differently*
+
+---
+
+### **Converting Pseudocode to Python**
+
+*Converting pseudocode to python is the process of translating English-like program logic into valid Python syntax.*
+
+---
+
+**Conversion Rules**
+
+| Pseudocode      | Python                |
+| --------------- | --------------------- |
+| BEGIN           | (No keyword required) |
+| END             | (No keyword required) |
+| Read            | `input()`             |
+| Print / Display | `print()`             |
+| IF              | `if`                  |
+| ELSE            | `else`                |
+| WHILE           | `while`               |
+| FOR             | `for`                 |
+| Calculate       | Use Python operators  |
+
+---
+
+**Example:** *Add 2 numbers*
+
+```pseudocode
+BEGIN
+INPUT A 
+INPUT B
+SUM=A+B
+PRINT SUM
+END
+```
+
+```python
+a=int(input("Enter first number:"))
+b=int(input("Enter second number:"))
+
+sum=a+b
+
+print(sum)
+```
 
 ---
 

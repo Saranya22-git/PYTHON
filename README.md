@@ -1630,6 +1630,28 @@ Stop
 
 ---
 
+**Flowchart of Even or Odd**
+
+```txt
+              Start
+                 │
+                 ▼
+          Read Number
+                 │
+                 ▼
+        Number %2==0 ?
+           ◇
+        /       \
+      Yes       No
+       │         │
+       ▼         ▼
+ Print Even  Print Odd
+       │         │
+       └────┬────┘
+            ▼
+           Stop
+```
+
 ### **Loops in Flowcharts**
 
 **What is a Loop?**

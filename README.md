@@ -370,17 +370,17 @@ print(a+b)
 - *Go*
 - *Rust*
 
-*These languages mainly use compilers.*
+*These languages mainly use compilers. Java and Python also use compilation as part of their execution process, but not in the same way as C or C++.*
 
 ---
 
 **Characteristics of a Compiler**
 
 *A Compiler*
-- *Translates the entire program before execution*
-- *Reports errors after compiling the whole program*
-- *Produces machine code*
-- *Compiled programs generally execute faster after successful compilation*
+- *Translates the entire program before execution.*
+- *Reports errors after compiling the whole program.*
+- *Produces machine code.*
+- *Compiled programs generally execute faster after successful compilation.*
 
 ---
 
@@ -390,16 +390,17 @@ print(a+b)
 
 **Example:** *Imagine a translator helping two people talk.*
 
+---
+
 **Compiler Style:**
 - *Person A speaks everything. Translator converts everything. Then Person B hears everything.*
-
 
 **Interpreter Style:**
 - *Person A speaks one sentence. Translator translates it. Person B hears it. Then next sentence. Then next sentence. This is how an interpreter works.*
 
 ---
 
-**How Interpreter works:**
+**How Interpreter works?**
 
 ```python
 a=10
@@ -428,16 +429,13 @@ print(a+b)
 
 ---
 
-**Advantages of Interpreter**
+**Characteristics of an Interpreter**
 
-- **Easy Debugging:** *Errors are reported immediately.*
-- **No compilation setup:** *Program runs directly.*
-- **Faster Development:** *Easy to test small changes.*
-  
-**Disadvantages of Interpreter:**
-
-- **Slower Execution:** *Because translation happens during execution.*
-- **Stops at first error:** *If an error occurs, execution stops.*
+*An Interpreter*
+- *Translates one statement at a time.*
+- *Executes immediately after translation.*
+- *Stops as soon as it encounters an error.*
+- *Does not require the entire program to be translated before execution.*
 
 ---
 

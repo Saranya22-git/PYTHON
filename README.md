@@ -1555,13 +1555,6 @@ Stop
     
     **Purpose:** *Used to represent Start, Stop(End). Every flowchart must begin with Start and must end with Stop.*
 
-    ```txt
-      _________
-     /         \
-    |  Start    |
-     \_________/
-    ```
-
 2. **Process Symbol**
 
     **Symbol:** *Rectangle*
@@ -1634,6 +1627,15 @@ Stop
 | Decision       | Diamond       | Yes / No, True / False   |
 | Flow Line      | Arrow         | Direction of Flow        |
 | Connector      | Circle        | Connect Different Parts  |
+
+| Symbol | Purpose        |
+| ------ | -------------- |
+| ⬭      | Start / Stop   |
+| ▭      | Process        |
+| ▱      | Input / Output |
+| ◇      | Decision       |
+| →      | Flow Line      |
+| ○      | Connector      |
 
 ---
 

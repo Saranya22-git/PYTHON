@@ -4,7 +4,7 @@ Hey everybody!!!
 
 # **Table of Contents**
 - [**Table of Contents**](#table-of-contents)
-- [**Programming Fundamentals**](#programming-fundamentals)
+- [**Programming Foundations**](#programming-foundations)
   - [**Introduction to Programming**](#introduction-to-programming)
     - [**Programming**](#programming)
     - [**Program**](#program)
@@ -145,7 +145,7 @@ Hey everybody!!!
 
 ---
 
-# **Programming Fundamentals**
+# **Programming Foundations**
 
 ## **Introduction to Programming**
 
@@ -157,6 +157,12 @@ Hey everybody!!!
 - *A computer is a machine. It cannot think, decide, or understand of human language on its own.*
 - *It only follows instructions.*
 - *Those instructions are called a program and the process of writing those instructions is called Programming.*
+
+```txt
+OR
+```
+
+- *Programming is the process of designing, writing, testing and maintaining instructions (called programs) that tell a cinputer how to perform specific tasks.*
 
     **Example:** *Imagine you are teaching a robot to make tea.*
 
@@ -191,29 +197,21 @@ Hey everybody!!!
 - **Web Development:** *Websites, E-commerce platforms.*
     
      **Example:** *Amazon, Flipkart* 
-- **Mobile Apps:**
+
+- **Mobile Apps**
     
-     **Example:** *WhatsApp, Instagram, Telegram.*  
+     **Example:** *WhatsApp, Instagram, Telegram.*
+
 - **Data Science:** *Used for Data Analysis, Machine Learning, AI.*
-- **Automation:**
+- **Automation**
     
      **Example:** *Instead of manually renaming 1000 files, write a program. Computer does it automatically.* 
-- **Game Development:**
+
+- **Game Development**
     
      **Example:** *Minecraft, PUBG: Battlegrounds.* 
+
 - **Cybersecurity:** *Programming is used to detect attacks, create security tools, analyze malware.*
-
----
-
-**Characteristics of Programming**
-
-*Good programming should be:*
-
-- **Correct:** *Produces correct output.*
-- **Efficient:** *Uses less time and memory.*
-- **Readable:** *Easy for humans to understand.*
-- **Maintainable:** *Easy to modify later.*
-- **Reusable:** *Can be used again.*
 
 ---
 

@@ -219,13 +219,13 @@ OR
 
 **What is a Program?**
 
-- *A program is a collection of instructions written to perform a specific task.*
+- *A program is a collection of instructions written in a programming language to perform a specific task.*
 - *A program tells the computer:*
   - *What to do*
   - *How to do it*
   - *When to do it*
 
-  **Example:** *Imagine a recipe for making biryani.*
+**Example:** *Imagine a recipe for making biryani.*
 
   *The recipe contains steps:*
   1. *Wash rice*
@@ -234,69 +234,7 @@ OR
   4. *Mix ingredients*
   5. *Serve*
 
-  *The recipe is a set of instructions.*
-
----
-
-**Characteristics of a Program**
-
-- **Set of instructions:** *A program contains multiple instructions.*
-     
-     **Example:**
-    ```python
-     a=10
-     b=10
-     print(a+b)
-    ```
-- **Performs a specific task:** 
-    
-    **Examples:**
-     - *Calculator program*
-     - *Attendance program*
-     - *Banking program*
-     - *Payroll program* 
-- **Written in a Programming Language:**
-    
-    **Examples:**
-     - *Python*
-     - *C*
-     - *Java*
-     - *C++*
-     - *JavaScript* 
-- **Executed by Computer:** *Computer reads instructions one by one and executes them.*
-   
----
-
-**Types of Programs**
-
-- **System Programs:** *Used to manage the computer.*
-
-   **Example:** 
-    - *Operating Systems*
-    - *Device Drivers* 
-- **Application Programs:** *Used by users.*
-     
-   **Examples:**
-    - *Calculator*
-    - *Browser*
-    - *Music Player*
-
----
-
-**Real-life examples of Programs**
-
-- **ATM Software**
-   - *Checks Balance*
-   - *Withdraw Money*
-   - *Deposit Money*
-- **Instagram**
-   - *Upload Photos*
-   - *Like Posts*
-   - *Send Messages* 
-- **YouTube**
-   - *Play Videos*
-   - *Search Videos*
-   - *Subscribe Channels* 
+*The recipe is a set of instructions.*
 
 ---
 
@@ -306,24 +244,24 @@ OR
 
 - *Coding is the process of converting logic, algorithms, or solutions into a programming language that a computer can understand and execute.*
   
-  **Example:** *Imagine your teacher asks **Find the sum of two numbers**.*
+**Example:** *Imagine your teacher asks ```Find the sum of two numbers```.*
 
-  **Step-1:** *Think of the logic*
-  - *Take first number*
-  - *Take second number*
-  - *Add them*
-  - *Display result*
+**Step-1:** *Think of the logic*
+- *Take first number*
+- *Take second number*
+- *Add them*
+- *Display result*
 
-  *This is Logic.*
+*This is Logic.*
 
-  **Step-2:** *Convert Logic into Python*
-    ```python
-    a=10
-    b=20
-    print(a+b)
-    ```
+**Step-2:** *Convert Logic into Python*
+```python
+a=10
+b=20
+print(a+b)
+```
 
-    *This conversion of logic into Python code is called Coding.*
+*This conversion of logic into Python code is called Coding.*
 
 ---
 
@@ -338,90 +276,53 @@ OR
 
 ---
 
-**Why Coding is important?**
-
-*Coding helps us:*
-- *Create software*
-- *Build websites*
-- *Develop apps*
-- *Automate tasks*
-- *Analyze data*
-- *Build AI systems*
-
----
-
 ### **Software vs Hardware**
 
-**Hardware:** *Hardware refers to the physical components of a computer that you can see and touch.*
+**Hardware:** *Hardware refers to the physical components of a computer that can be seen and touched.*
 
-  **Examples of Hardware:**
-
-  **Input devices**
-  - *Keyboard*
-  - *Mouse*
-  - *Webcam*
-  - *Scanner*
-
-  **Output devices**
-  - *Monitor*
-  - *Printer*
-  - *Speakers*
-
-  **Processing Devices**
-  - *CPU*
-  - *GPU*
-
-  **Storage Devices**
-  - *Hard Disk (HDD)*
-  - *SSD*
-  - *Pen Drive*
-  - *Memory Card*
-
-**Software:** *Software is a collection of programs and instructions that tell hardware what to do.*
-
-  **Examples of Software:**
-  - *Windows*
-  - *Android*
-  - *Instagram*
-  - *YouTube*
-  - *WhatsApp*
-  - *Microsoft Excel*
-  - *Google Chrome*
-
-*Without software, hardware is useless.*
-*Without hardware, software cannot run.*
+**Software:** *Software is a collection of programs and instructions that tells the hardware what to do.*
 
 ---
 
-**Relationship between Hardware and Software**
+**Why do we need both?**
 
-*Harware and Software work together.*
+- *Imagine you bought a brand-new laptop. It has CPU, RAM, SSD, Monitor, Keyboard. But windows is not installed.*
+- *Can you use it? No.*
+- *Now imagine you have Windows on a USB drive but no laptop. Can Windows run by itself? No.*
 
-**Example:** *You click Instagram.*
-
-**Hardware:**
-- *Finger touches screen*
-- *CPU processes action*
-- *RAM stores data*
-
-**Software:**
-- *Instagram app opens*
-- *Displays feed*
-- *Loads messages*
-
-*Both are required.*
+*Hardware and Software depend on each other.*
+- *Hardware without software is useless.*
+- *Software without hardware cannot run.*
 
 ---
 
-**Difference between Hardware and Software**
+**Hardware Examples**
 
-| Hardware                | Software                          |
-| ----------------------- | --------------------------------- |
-| Physical components     | Programs and instructions         |
-| Can be touched          | Cannot be touched                 |
-| Manufactured            | Developed                         |
-| Can wear out physically | Does not wear out physically      |
-| Examples: CPU, Keyboard | Examples: Windows, Python, Chrome |
+- **Internal Hardware:** *CPU, RAM, Motherboard, SSD, HDD, GPU*
+- **External Hardware:** *Keyboard, Mouse, Monitor, Printer, Speakers*
+
+**Software Examples**
+
+- **System Software:** *Windows, Linux, macOS*
+- **Application Software:** *Google Chrome, Microsoft Word, VS Code, WhatsApp, Spotify*
+
+---
+
+**Example:** *Suppose you open Google Chrome. What actually happens?*
+
+*You Click Chrome → Windows loads Chrome → CPU executes instructions → RAM stores temporary data → Monitor displays Chrome.*
+
+---
+
+**Hardware vs Software**
+
+| Hardware                | Software                         |
+| ----------------------- | -------------------------------- |
+| Physical components     | Programs & instructions          |
+| Can be touched          | Cannot be touched                |
+| Manufactured            | Developed by programmers         |
+| Can wear out physically | Can have bugs or become outdated |
+| Examples: CPU, RAM      | Examples: Windows, Chrome        |
 
 ---
 

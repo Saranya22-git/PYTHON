@@ -3010,7 +3010,7 @@ is_employed=False
 
 **What is Variable Creation?**
 
-*Variable Creation is the process of binding an identifier to an object using the assignment operator (=).*
+*Variable Creation is the process of creating a variable name and binding it to an object (value) in memory using the assignment operator (=).*
 
 ---
 

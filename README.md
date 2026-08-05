@@ -56,12 +56,12 @@ Hey everybody!!!
       - [**Variable Creation**](#variable-creation)
       - [**Variable Swapping**](#variable-swapping)
       - [**Dynamic Typing**](#dynamic-typing)
-      - [**Comments**](#comments)
-        - [**Single-Line Comment**](#single-line-comment)
-        - [**Multi-Line Comment**](#multi-line-comment)
-        - [**Docstrings**](#docstrings)
-      - [**Indentation**](#indentation)
-      - [**Case-Sensitivity**](#case-sensitivity)
+    - [**Comments**](#comments)
+      - [**Single-Line Comment**](#single-line-comment)
+      - [**Multi-Line Comment**](#multi-line-comment)
+      - [**Docstrings**](#docstrings)
+    - [**Indentation**](#indentation)
+    - [**Case-Sensitivity**](#case-sensitivity)
       - [**Multiple Assignment**](#multiple-assignment)
       - [**Multiple Variable Assignment**](#multiple-variable-assignment)
       - [**Swapping Variables**](#swapping-variables)
@@ -3165,7 +3165,7 @@ print(x)              # 30
   
 ---
 
-#### **Comments**
+### **Comments**
 
 *Comments are non-executable statements used to explain the code, improve readability, and make programs easier to understand.*
 
@@ -3188,7 +3188,7 @@ print(x)              # 30
 
 
 
-##### **Single-Line Comment**
+#### **Single-Line Comment**
 
 **Single-Line Comment:** *A Single-Line Comment is a comment that begins with the ```#``` symbol and continues until the end of the line.*
 
@@ -3197,7 +3197,7 @@ print(x)              # 30
   print("Hello")
   ```
 
-##### **Multi-Line Comment**
+#### **Multi-Line Comment**
 
 **Multi-line Comment:** *A Multi-Line Comment is a comment that is used to write comments than span multiple lines to explain larger sections of code.*
 
@@ -3210,7 +3210,7 @@ print(x)              # 30
 
 ---
 
-##### **Docstrings**
+#### **Docstrings**
 
 *A Docstring isa a string literal used to document modules, functions, classes, and methods.*
 
@@ -3249,15 +3249,37 @@ print(greet.__doc__)                # Displays a welcome message.
 
 ---
 
+### **Indentation**
 
-#### **Indentation**
+*Indentation is the spaces or tabs added at the beginning of a line to define a block of code in Python.*
 
-- *Space/tabs given before code statements.*
-- *Python uses indentation to define code blocks instead of curly braces {}.*
+---
 
-#### **Case-Sensitivity**
+**Why do we need Indentation?**
 
-*Python is Case-Sensitive.*
+- *Most programming languages use curly braces {} to define blocks of code. Python does not use {}.*
+- *Without proper indentation, Python cannot understand which statements belong to the ```if``` block.*
+
+---
+
+**Syntax:** *After statements ending with a colon(:) the next line must be indented.*
+
+```python
+if (condition):
+  statement
+```
+
+---
+
+### **Case-Sensitivity**
+
+*Python is Case-Sensitive programming language, which means it treats uppercase and lowercase letters as different.*
+
+---
+
+**Why do we need Case Sensitivity?**
+
+*Case sensitivity allows programmers to create distinct identifiers.*
 
 ```python
 name="Saranya"

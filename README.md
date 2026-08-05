@@ -54,6 +54,8 @@ Hey everybody!!!
     - [**Identifiers**](#identifiers)
     - [**Variables**](#variables)
       - [**Variable Creation**](#variable-creation)
+      - [**Variable Swapping**](#variable-swapping)
+      - [**Dynamic Typing**](#dynamic-typing)
       - [**Comments**](#comments)
         - [**Single-Line Comment**](#single-line-comment)
         - [**Multi-Line Comment**](#multi-line-comment)
@@ -3127,6 +3129,37 @@ x=10+20
 print(x)              # 30
 ```
 
+#### **Variable Swapping**
+
+*Variable Swapping is the process of exchanging the values of two variables.*
+
+**Syntax:** *Python provides two ways to swap variables*
+
+**Method-1:** *Using a Temporary Variable*
+  ```python
+  temp=a
+  a=b
+  b=temp
+  ```
+
+**Method-2:** *Pythonic Way*
+  ```python
+  a=b=b,a
+  ```
+
+---
+
+#### **Dynamic Typing**
+
+*Dynamic Typing is a feature of Python in which the data type of a variable is determined automatically based on the value assigned to it.*
+
+**Example:**
+  ```python
+  age=21
+
+  print(type(age))              # <class 'int'>
+  ```
+  
 ---
 
 #### **Comments**

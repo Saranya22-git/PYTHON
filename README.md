@@ -62,9 +62,6 @@ Hey everybody!!!
       - [**Docstrings**](#docstrings)
     - [**Indentation**](#indentation)
     - [**Case-Sensitivity**](#case-sensitivity)
-      - [**Multiple Assignment**](#multiple-assignment)
-      - [**Multiple Variable Assignment**](#multiple-variable-assignment)
-      - [**Swapping Variables**](#swapping-variables)
     - [**Memory Model \& Internal Concepts**](#memory-model--internal-concepts)
       - [**Objects**](#objects)
       - [**References**](#references)
@@ -1219,7 +1216,7 @@ print("Hello")
 4. **Huge Community:** *Millions of developers use Python.*
 5. **Massive Library Support:** *Python has thousands of ready-made libraries.*
 
-**Example:** *NumPy, Pandas, Matplotlib, TensorFlow, Flask, Django, Requests. Instead of building everything from scartch you can use these libraries.*
+  **Example:** *NumPy, Pandas, Matplotlib, TensorFlow, Flask, Django, Requests. Instead of building everything from scartch you can use these libraries.*
 
 6. **Cross Platform:** *The same python code run on Windows, Linux, macOS. Usually without modification.*
 7. **Open Source:** *Python is free. Anyone can download and use it. No license fee.*
@@ -3291,42 +3288,7 @@ print(Name)
 
 ---
 
-#### **Multiple Assignment**
 
-```python
-a=b=c=100
-
-print(a)
-print(b)
-print(c)
-```
-*This is called Share object referencing.*
-
-#### **Multiple Variable Assignment**
-
-```python
-a,b,c=10,20,30
-
-print(a)
-print(b)
-print(c)
-```
-
-#### **Swapping Variables**
-
-```python
-a=10
-b=20
-
-a,b=b,a
-
-print(a)
-print(b)
-```
-- *Python special feature.*
-- *Internally, Python uses tuple packing/unpacking.*
-
----
 
 ### **Memory Model & Internal Concepts**
 

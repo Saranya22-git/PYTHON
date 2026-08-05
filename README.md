@@ -2966,7 +2966,7 @@ variable_name=value
 **Using Variables**
 
 ```python
-name="Saran"
+name="Saranya"
 print(name)           # Saranya
 ```
 
@@ -3046,7 +3046,6 @@ variable1, variable2, variable3=value1, value2, value3
 name, age, city="Saranya", 10, "Elr"
 ```
 
----
 
 **Number of Variables must match**
 

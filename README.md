@@ -1189,29 +1189,29 @@ print("Hello")
 
 1. **Easy to Learn:** *Python looks similar to English. Even beginners can understand this.*
 
-**Example:** 
-```python
-if age >= 18:
-    print("Eligible")
-```
+  **Example:** 
+  ```python
+  if age >= 18:
+      print("Eligible")
+  ```   
 
 2. **Easy to Read:** *Python code is clean.*
 
-**Example:** 
-```python
-total = price * quantity
-```
+  **Example:** 
+  ```python
+  total = price * quantity
+  ```
 
 3. **Easy to write:** *Less code, Less typing, Less chance of mistakes.*
 
-**Example:**
-```c
-printf("Hello");
-```
+  **Example:**
+  ```c
+  printf("Hello");
+  ```
 
-```python
-print("Hello")
-```
+  ```python
+  print("Hello")
+  ```
 
 4. **Huge Community:** *Millions of developers use Python.*
 5. **Massive Library Support:** *Python has thousands of ready-made libraries.*

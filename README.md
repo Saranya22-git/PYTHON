@@ -66,6 +66,8 @@ Hey everybody!!!
   - [**Numeric Types**](#numeric-types)
     - [**Integer (int)**](#integer-int)
     - [**Number Systems**](#number-systems)
+    - [**bin()**](#bin)
+    - [**oct()**](#oct)
     - [**Memory Model \& Internal Concepts**](#memory-model--internal-concepts)
       - [**Objects**](#objects)
       - [**References**](#references)
@@ -3366,6 +3368,89 @@ A=10 B=11 C=12 D=13 E=14 F=15
 ```
 
 ---
+
+### **bin()**
+
+*```bin()``` is a built-in python function that converts an integer into its binary representation.*
+
+---
+
+**Why do we need bin()?**
+
+*Computers understand only binary numbers (0 and 1). Instead of converting decimal numbers to binary manually, Python provides the ```bin()``` function.*
+
+**Example:**
+
+  ```txt
+  Decimal 10
+
+  Binary 1010
+  ```
+
+---
+
+**Syntax:**
+
+  ```python
+  bin(integer)
+  ```
+
+- *integer → The decimal integer you want to convert.*
+- *Returns → A string representing the binary number.*
+
+---
+
+**How does it work?**
+
+- *Suppose you write ```bin(10)```. Python converts decimal 10 into binary.*
+- *Result ```0b1010```*
+- *Notice the prefix 0b. It indicates that the number is in binary format.*
+- *```0b``` → indicates binary format*
+- *```1010``` → Actual binary number*
+
+---
+
+### **oct()**
+
+*```oct()``` is a built-in python function that converts an integer into its octal representation.*
+
+---
+
+**Why do we need oct()?**
+
+*In some areas such as Operating Systems, Computer Architecture, Embedded Systems numbers are sometimes represented in octal(base 8) instead of deciaml. Instead of converting manually, Python provides the ```oct()``` function.*
+
+**Example:**
+
+  ```txt
+  Decimal 10
+
+  Octal 12
+  ```
+
+---
+
+**Syntax:**
+
+  ```python
+  oct(integer)
+  ```
+
+- *integer → The integer to convert*
+- *Returns → A string representing the octal number*
+
+---
+
+**How does it work?**
+
+- *Suppose you write ```oct(10)```. Python converts the integer 10 into octal.*
+- *Result ```0o12```*
+- *Notice the prefix 0o*
+- *It indicates that the number is in octal format.*
+
+---
+
+
 ### **Memory Model & Internal Concepts**
 
 #### **Objects**

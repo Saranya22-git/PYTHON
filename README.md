@@ -68,6 +68,7 @@ Hey everybody!!!
     - [**Number Systems**](#number-systems)
     - [**bin()**](#bin)
     - [**oct()**](#oct)
+    - [**hex()**](#hex)
     - [**Memory Model \& Internal Concepts**](#memory-model--internal-concepts)
       - [**Objects**](#objects)
       - [**References**](#references)
@@ -3450,6 +3451,67 @@ A=10 B=11 C=12 D=13 E=14 F=15
 
 ---
 
+### **hex()**
+
+*```hex()``` is a built-in python function that converts an integer into its hexadeciaml representation.*
+
+---
+
+**Why do we need hex()?**
+
+*Hexadecimal numbers are widely used in Memory addresses, Web colors (HTML/CSS), Computer Architecture, Debugging, Networking. Instead of manually converting numbers to hexadecimal, Python provides the hex() function.*
+
+**Example:**
+
+  ```txt
+  Decimal 26
+
+  Hexadecimal 1A
+  ```
+
+---
+
+**Syntax:**
+
+  ```python
+  hex(integer)
+  ```
+
+- *integer → The integer to convert*
+- *Returns → A string representing the hexadecimal number*
+
+---
+
+**How does it work?**
+
+- *Suppose you write ```hex(26)```. Python converts the integer 26 into hexadecimal.*
+- *Result ```0x1a```*
+- *Notice the prefix 0x*
+- *It indicates that the number is in hexadecimal format*
+- *Also notice ```A → a B → b C → c D → d E → e F → f*
+- *Python returns hexadecimal letters in lowercase by default*
+
+---
+
+*Web developers use hexadecimal values to represent colors.*
+
+**Examples**
+
+```txt
+#FFFFFF → White
+
+#000000 → Black
+
+#FF0000 → Red
+
+#00FF00 → Green
+
+#0000FF → Blue
+```
+
+*Although these color codes start with ```#```, they are based on hexadecimal numbers.*
+
+---
 
 ### **Memory Model & Internal Concepts**
 

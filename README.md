@@ -3488,7 +3488,7 @@ A=10 B=11 C=12 D=13 E=14 F=15
 - *Result ```0x1a```*
 - *Notice the prefix 0x*
 - *It indicates that the number is in hexadecimal format*
-- *Also notice ```A → a B → b C → c D → d E → e F → f*
+- *Also notice ```A → a B → b C → c D → d E → e F → f```*
 - *Python returns hexadecimal letters in lowercase by default*
 
 ---

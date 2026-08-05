@@ -62,6 +62,10 @@ Hey everybody!!!
       - [**Docstrings**](#docstrings)
     - [**Indentation**](#indentation)
     - [**Case-Sensitivity**](#case-sensitivity)
+- [**Data Types**](#data-types)
+  - [**Numeric Types**](#numeric-types)
+    - [**Integer (int)**](#integer-int)
+    - [**Number Systems**](#number-systems)
     - [**Memory Model \& Internal Concepts**](#memory-model--internal-concepts)
       - [**Objects**](#objects)
       - [**References**](#references)
@@ -3288,8 +3292,80 @@ print(Name)
 
 ---
 
+# **Data Types**
 
+## **Numeric Types**
 
+### **Integer (int)**
+
+*An integer(int) is a numerical data type used to represent whole numbers without a decimal point.*
+
+**Syntax:** *Simply assign a whole number to a variable. Python automatically treats these values as integers.*
+
+  ```python
+  age = 20
+
+  marks = 95
+
+  temperature = -5
+
+  count = 0
+  ```
+
+---
+
+**How does it work?**
+
+*Whenever Python sees a whole number without a decimal point, it automatically creates an object of type ```int```.*
+
+**Example:**
+
+  ```python
+  age=20
+  ```
+
+*Here, ```20``` is an integer. Python automatically assigns the type ```int```.*
+
+*We can verify it using*
+
+  ```python
+  print(type(age))             # <class 'int'>
+  ``` 
+
+---
+
+### **Number Systems**
+
+*A Number System is a method of representing numbers using a specific set of digits and a base (radix).*
+
+---
+
+**Types of Number Systems**
+
+*Python supports four commonly used number systems.*
+
+| Number System | Base | Digits Used |
+| ------------- | ---- | ----------- |
+| Decimal       |   10 | 0–9         |
+| Binary        |    2 | 0, 1        |
+| Octal         |    8 | 0–7         |
+| Hexadecimal   |   16 | 0–9, A–F    |
+
+---
+
+**Decimal Number System (Base 10):** *This is the number system we use every day. It uses 10 digits. ```0 1 2 3 4 5 6 7 8 9```.*
+
+**Binary Number System (Base 2):** *Binary uses only 2 digits. ```0 1```. Binary is the language understood by computers.*
+
+**Octal Number System (Base 8):** *Octal uses 8 digits. ```0 1 2 3 4 5 6 7```.*
+
+**Hexadecimal Number System (Base 16):** *Hexa deciaml uses ```0 1 2 3 4 5 6 7 8 9 A B C D E F```*
+
+```txt
+A=10 B=11 C=12 D=13 E=14 F=15
+```
+
+---
 ### **Memory Model & Internal Concepts**
 
 #### **Objects**

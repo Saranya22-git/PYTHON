@@ -59,6 +59,7 @@ Hey everybody!!!
       - [**Comments**](#comments)
         - [**Single-Line Comment**](#single-line-comment)
         - [**Multi-Line Comment**](#multi-line-comment)
+        - [**Docstrings**](#docstrings)
       - [**Indentation**](#indentation)
       - [**Case-Sensitivity**](#case-sensitivity)
       - [**Multiple Assignment**](#multiple-assignment)
@@ -3129,6 +3130,8 @@ x=10+20
 print(x)              # 30
 ```
 
+---
+
 #### **Variable Swapping**
 
 *Variable Swapping is the process of exchanging the values of two variables.*
@@ -3164,25 +3167,88 @@ print(x)              # 30
 
 #### **Comments**
 
-*Comments are non-executable statements used for explanation/documentation.*
+*Comments are non-executable statements used to explain the code, improve readability, and make programs easier to understand.*
+
+**Example:**
+  ```python
+  # Store student age
+  age=20
+
+  print(age)              # 20
+  ```
+
+---
+
+**Types of Comments in Python**
+
+*Python supports 3 ways to write comments*
+1. *Single-Line Comments*
+2. *Multi-Line Comments*
+3. *Docstrings*
+
+
 
 ##### **Single-Line Comment**
 
-```python
-# This is Single-Line comment
-print("Hello")
-```
+**Single-Line Comment:** *A Single-Line Comment is a comment that begins with the ```#``` symbol and continues until the end of the line.*
+
+  ```python
+  # This is Single-Line comment
+  print("Hello")
+  ```
 
 ##### **Multi-Line Comment**
 
+**Multi-line Comment:** *A Multi-Line Comment is a comment that is used to write comments than span multiple lines to explain larger sections of code.*
+
+  ```python
+  # This is Multi-Line
+  # Comment
+  ```
+
+*Python does not officially support multi-line comments. The recommended way is to use multiple ```#``` symbols. Triple quotes are primarily meant for docstrings, not comments.*
+
+---
+
+##### **Docstrings**
+
+*A Docstring isa a string literal used to document modules, functions, classes, and methods.*
+
+**Syntax:** *A Docstring is written using triple double quotes ```(""" """)``` or triple single quotes ```(''' ''')```*
+
+  ```python
+  """This is Docstring!!!"""
+  ```
+
+---
+
+**Accessing a Docstring**
+
+*Python provides the ```__doc__``` attribute.*
+
+**Example:**
+
 ```python
-"""
-This is Multi-Line
-Comment
-"""
+def greet():
+  "Displays a welcome message."
+  print("Hello")
+
+print(greet.__doc__)                # Displays a welcome message.
 ```
 
 ---
+
+**Comments vs Docstrings**
+
+| Comments                 | Docstrings                                        |
+| ------------------------ | ------------------------------------------------- |
+| Explain code             | Document modules, functions, classes, and methods |
+| Ignored during execution | Stored as documentation                           |
+| Start with `#`           | Written using triple quotes                       |
+| Cannot be accessed       | Can be accessed using `__doc__`                   |
+
+---
+
 
 #### **Indentation**
 

@@ -3653,12 +3653,13 @@ print(result == 0.4)        # True
 
 **How can we handle precision issues?**
 
-**Method-1:** *Use ```round()```*
+*Use ```round()```*
 
   ```python
   print(round(0.1 + 0.2, 2))          # 0.3
   ```
-**Method-2:** **
+
+---
 
 
 ### **Memory Model & Internal Concepts**

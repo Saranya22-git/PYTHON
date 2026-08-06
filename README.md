@@ -1415,29 +1415,29 @@ print("Hello")
 
 - **Rule-1:** *Start*
 
-*Every algorithm should begin with Start. This tells where execution begins.*
+  *Every algorithm should begin with Start. This tells where execution begins.*
 
 - **Rule-2:** *Input*
 
-*Reads the required inputs.*
+  *Reads the required inputs.*
 
-**Example:** *Read Number A. Read Number B.*
+  **Example:** *Read Number A. Read Number B.*
 
 - **Rule-3:** *Processing*
 
-*Perform the required calculations.*
+  *Perform the required calculations.*
 
-**Example:** *Sum=A+B*
+  **Example:** *Sum=A+B*
 
 - **Rule-4:** *Output*
 
-*Display the result*
+  *Display the result*
 
-**Example:** *Display Sum*
+  **Example:** *Display Sum*
 
 - **Rule-5:** *Stop*
 
-*Every algorithm should end with Stop.*
+  *Every algorithm should end with Stop.*
 
 ---
 

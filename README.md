@@ -69,6 +69,7 @@ Hey everybody!!!
     - [**bin()**](#bin)
     - [**oct()**](#oct)
     - [**hex()**](#hex)
+  - [**float**](#float)
     - [**Memory Model \& Internal Concepts**](#memory-model--internal-concepts)
       - [**Objects**](#objects)
       - [**References**](#references)
@@ -99,7 +100,7 @@ Hey everybody!!!
           - [**is vs ==**](#is-vs--1)
           - [**Garbage Collection Relation**](#garbage-collection-relation)
           - [**Type Casting to int**](#type-casting-to-int)
-        - [**float**](#float)
+        - [**float**](#float-1)
           - [**Float Immutability**](#float-immutability)
           - [**Possible Float Object Reuse OR Interpreter Optimization**](#possible-float-object-reuse-or-interpreter-optimization)
           - [**Reference Assignment**](#reference-assignment-2)
@@ -3512,6 +3513,37 @@ A=10 B=11 C=12 D=13 E=14 F=15
 *Although these color codes start with ```#```, they are based on hexadecimal numbers.*
 
 ---
+
+## **float**
+
+*A float is a built-in numeric data type used to represent numbers that contain a decimal point.*
+
+**Syntax:** *Assign a decimal number to a variable. Python automatically treats these values as float.*
+
+  ```python
+  cgpa = 9.15
+
+  price = 9.99
+
+  temperature = 36.5
+  ```
+
+---
+
+**How does it work?**
+
+*Whenever Python sees a number with a decimal point ```(.)```, it automatically identifies it as a ```float```.*
+
+**Example:**
+
+  ```python
+  cgpa = 9.15
+
+  print(type(cgpa))             # <class 'float'>
+  ```
+
+---
+
 
 ### **Memory Model & Internal Concepts**
 

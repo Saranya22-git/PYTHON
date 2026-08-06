@@ -70,6 +70,7 @@ Hey everybody!!!
     - [**oct()**](#oct)
     - [**hex()**](#hex)
   - [**float**](#float)
+    - [**Scientific Notation**](#scientific-notation)
     - [**Memory Model \& Internal Concepts**](#memory-model--internal-concepts)
       - [**Objects**](#objects)
       - [**References**](#references)
@@ -104,7 +105,7 @@ Hey everybody!!!
           - [**Float Immutability**](#float-immutability)
           - [**Possible Float Object Reuse OR Interpreter Optimization**](#possible-float-object-reuse-or-interpreter-optimization)
           - [**Reference Assignment**](#reference-assignment-2)
-          - [**Scientific Notation**](#scientific-notation)
+          - [**Scientific Notation**](#scientific-notation-1)
           - [**Float precision issue**](#float-precision-issue)
           - [**is vs ==**](#is-vs--2)
           - [**Type casting to float**](#type-casting-to-float)
@@ -3544,6 +3545,61 @@ A=10 B=11 C=12 D=13 E=14 F=15
 
 ---
 
+### **Scientific Notation**
+
+*Scientific Notation is a way of representing very large or very small numbers using powers of 10.*
+
+---
+
+**Why do we need Scientific Notation?**
+
+*Imagine writing ```10000000000000000``` or ```0.00000000000045```. These numbers are difficult to read and easy to type incorrectly. Scientific Notation makes them simpler.*
+
+**Example:**
+
+  ```txt
+  1000000000000 becomes 1e12 and 0.00000000045 becomes 4.5e-10
+  ```
+
+---
+
+**Syntax:**
+
+  ```python
+  number = coefficienteexponent
+  ```
+
+*General form ```coefficient e exponent``` where e means × 10 raised to the power of the exponent can be positive or negative.*
+
+---
+
+**Examples:**
+  ```
+  x = 2e3
+
+  y = 5e-2
+  ```
+
+---
+
+**How does it work?**
+
+*Python interprets ```2e3``` as ```2 × 10³``` which equals ```2000.0```. Similarly, ```5e-2``` means ```5 × 10⁻²``` which equals ```0.05```.*
+
+---
+
+**Example:**
+```python
+b = 4e-20
+
+print(b)                    # 4e-20
+print(f"{b:e}")             # 4.000000e-20
+print(f"{b:f}")             # 0.000000 This prints exactly 6 digits after the decimal (default for f)
+print(f"|{b:20f}|")         # |            0.000000| minimum width 20 
+print(f"|{b:10.20f}|")      # |0.00000000000000000004|
+print(f"|{b:.20f}|")        # |0.00000000000000000004|
+f"{b:20f}"                  # '            0.000000'                 
+```
 
 ### **Memory Model & Internal Concepts**
 

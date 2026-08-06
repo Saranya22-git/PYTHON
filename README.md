@@ -71,6 +71,7 @@ Hey everybody!!!
     - [**hex()**](#hex)
   - [**float**](#float)
     - [**Scientific Notation**](#scientific-notation)
+    - [**Precision Values**](#precision-values)
     - [**Memory Model \& Internal Concepts**](#memory-model--internal-concepts)
       - [**Objects**](#objects)
       - [**References**](#references)
@@ -3600,6 +3601,65 @@ print(f"|{b:10.20f}|")      # |0.00000000000000000004|
 print(f"|{b:.20f}|")        # |0.00000000000000000004|
 f"{b:20f}"                  # '            0.000000'                 
 ```
+
+---
+
+### **Precision Values**
+
+*Precision issues occur because floating-point numbers cannot always be represented exactly in binary, leading to small rounding errors during calculations.*
+
+---
+
+**Why do we need to know about Precision Issues?**
+
+- *```print(0.1 + 0.2)``` Output ```0.3``` but python actually prints ```0.30000000000000004```*
+- *It is not a bug. It happens because of how computers store floating-point numbers.*
+
+---
+
+**Why does this happen?**
+
+*Computers store numbers in binary. Some decimal numbers such as ```0.1 0.2 0.3``` cannot be represented exactly in binary. Instead, Python stores the closet possible binary approximation. When these approximations are added together, a tiny error appears.*
+
+---
+
+**How does it work?**
+
+- ```print(0.1 + 0.2)``` Output ```0.30000000000000004```
+- *Internally, Python stores values approximately ```0.1 ≈ Approximation 0.2 ≈ Approximation``` Adding the approximations produces ```0.30000000000000004```*
+- *This tiny difference is called a floating-point precision error.*
+
+---
+
+**Examples:**
+
+```python
+print(0.1 + 0.2)            # 0.30000000000000004
+```
+
+```python
+result = 0.1 + 0.2
+
+print(result == 0.3)        # False
+```
+
+```python
+result = 0.2 + 0.2
+
+print(result == 0.4)        # True
+```
+
+---
+
+**How can we handle precision issues?**
+
+**Method-1:** *Use ```round()```*
+
+  ```python
+  print(round(0.1 + 0.2, 2))          # 0.3
+  ```
+**Method-2:** **
+
 
 ### **Memory Model & Internal Concepts**
 

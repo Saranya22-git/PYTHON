@@ -65,16 +65,16 @@ Hey everybody!!!
 - [**Data Types**](#data-types)
   - [**Numeric Types**](#numeric-types)
     - [**Integer (int)**](#integer-int)
-    - [**Number Systems**](#number-systems)
-    - [**bin()**](#bin)
-    - [**oct()**](#oct)
-    - [**hex()**](#hex)
-  - [**float**](#float)
-    - [**Scientific Notation**](#scientific-notation)
-    - [**Precision Values**](#precision-values)
-  - [**bool**](#bool)
-    - [**Boolean Values**](#boolean-values)
-    - [**Truthy and Falsy Values**](#truthy-and-falsy-values)
+      - [**Number Systems**](#number-systems)
+        - [**bin()**](#bin)
+        - [**oct()**](#oct)
+        - [**hex()**](#hex)
+    - [**float**](#float)
+      - [**Scientific Notation**](#scientific-notation)
+      - [**Precision Values**](#precision-values)
+    - [**bool**](#bool)
+      - [**Boolean Values**](#boolean-values)
+      - [**Truthy and Falsy Values**](#truthy-and-falsy-values)
   - [**complex**](#complex)
 
 
@@ -3263,7 +3263,7 @@ print(Name)
 
 ---
 
-### **Number Systems**
+#### **Number Systems**
 
 *A Number System is a method of representing numbers using a specific set of digits and a base (radix).*
 
@@ -3296,7 +3296,7 @@ A=10 B=11 C=12 D=13 E=14 F=15
 
 ---
 
-### **bin()**
+##### **bin()**
 
 *```bin()``` is a built-in python function that converts an integer into its binary representation.*
 
@@ -3337,7 +3337,7 @@ A=10 B=11 C=12 D=13 E=14 F=15
 
 ---
 
-### **oct()**
+##### **oct()**
 
 *```oct()``` is a built-in python function that converts an integer into its octal representation.*
 
@@ -3377,7 +3377,7 @@ A=10 B=11 C=12 D=13 E=14 F=15
 
 ---
 
-### **hex()**
+##### **hex()**
 
 *```hex()``` is a built-in python function that converts an integer into its hexadeciaml representation.*
 
@@ -3439,7 +3439,7 @@ A=10 B=11 C=12 D=13 E=14 F=15
 
 ---
 
-## **float**
+### **float**
 
 *A float is a built-in numeric data type used to represent numbers that contain a decimal point.*
 
@@ -3469,7 +3469,7 @@ A=10 B=11 C=12 D=13 E=14 F=15
 
 ---
 
-### **Scientific Notation**
+#### **Scientific Notation**
 
 *Scientific Notation is a way of representing very large or very small numbers using powers of 10.*
 
@@ -3527,7 +3527,7 @@ f"{b:20f}"                  # '            0.000000'
 
 ---
 
-### **Precision Values**
+#### **Precision Values**
 
 *Precision issues occur because floating-point numbers cannot always be represented exactly in binary, leading to small rounding errors during calculations.*
 
@@ -3584,7 +3584,7 @@ print(result == 0.4)        # True
 
 ---
 
-## **bool**
+### **bool**
 
 *```bool``` is a built-in python data type that represents one of two truth values ```True``` or ```False```.*
 
@@ -3620,7 +3620,7 @@ Is payment successful?
 
 ---
 
-### **Boolean Values**
+#### **Boolean Values**
 
 *Python has only two Boolean Values*
 - *```True```: Represents a true condition*
@@ -3658,7 +3658,7 @@ Is payment successful?
 
 ---
 
-### **Truthy and Falsy Values**
+#### **Truthy and Falsy Values**
 
 *Truthy Values are values that python treats as ```True``` in a boolean context. Falsy Values are values that Python treats as ```False```.*
 

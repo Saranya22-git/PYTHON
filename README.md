@@ -73,6 +73,8 @@ Hey everybody!!!
     - [**Scientific Notation**](#scientific-notation)
     - [**Precision Values**](#precision-values)
   - [**bool**](#bool)
+    - [**Boolean Values**](#boolean-values)
+    - [**Truthy and Falsy Values**](#truthy-and-falsy-values)
 
 
 ---
@@ -3586,5 +3588,96 @@ print(result == 0.4)        # True
 *```bool``` is a built-in python data type that represents one of two truth values ```True``` or ```False```.*
 
 ---
+
+**Why do we need Boolean Values?**
+
+*Programs frequently need to make decisions. Python uses Boolean values to represent these two possible states.*
+
+```txt
+Is the user logged in?
+        ↓
+      True / False
+
+Is age >= 18?
+        ↓
+      True / False
+
+Is payment successful?
+        ↓
+      True / False
+```
+
+---
+
+**Syntax:** *You can directly assign a Boolean Value*
+
+  ```python
+  is_student = True
+
+  print(type(is_student))
+  ```
+
+---
+
+### **Boolean Values**
+
+*Python has only two Boolean Values*
+- *```True```: Represents a true condition*
+- *```False```: Represents a false condition*
+
+---
+
+**Boolean Values from Comparisons**
+
+*Comparisons produce Boolean values.*
+
+  ```python
+  age = 20
+
+  print(age >= 18)
+  ```
+
+---
+
+**```bool()``` function**
+
+*Python provides the built-in ```bool()``` function to convert a value into a Boolean value.*
+
+**Syntax:**
+  ```python
+  bool(value)
+  ```
+
+**Example:**
+  ```python
+  print(bool(1))            # True
+
+  print(bool(0))            # False
+  ```
+
+---
+
+### **Truthy and Falsy Values**
+
+*Truthy Values are values that python treats as ```True``` in a boolean context. Falsy Values are values that Python treats as ```False```.*
+
+---
+
+**Common Falsy Values**
+
+```python
+False
+None
+0
+0.0
+""
+[]
+()
+{}
+set()
+```
+
+---
+
 
 

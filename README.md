@@ -73,7 +73,6 @@ Hey everybody!!!
     - [**Scientific Notation**](#scientific-notation)
     - [**Precision Values**](#precision-values)
   - [**bool**](#bool)
-  - [\*\*\*\*](#)
 
 
 ---
@@ -3589,4 +3588,3 @@ print(result == 0.4)        # True
 ---
 
 
-## ****

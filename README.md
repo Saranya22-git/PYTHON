@@ -80,6 +80,8 @@ Hey everybody!!!
     - [**Creating a String**](#creating-a-string)
     - [**Indexing**](#indexing)
     - [**String Slicing**](#string-slicing)
+    - [**Negative Indexing**](#negative-indexing)
+    - [**Step Slicing**](#step-slicing)
 
 
 ---
@@ -3947,7 +3949,244 @@ print(name[10])       # IndexError: string index out of range
 
 ### **String Slicing**
 
-**
+- *String slicing is the process of extracting a portion of a string using a range of indexes.*
+- *Instead of accessing just one character with indexing ```text[2]```*
+- *We can extract multiple characters using slicing ```text[1:4]```*
+
+---
+
+**Syntax:**
+```python
+string[start:stop]
+```
+
+*The ```start``` index is included, but the ```stop``` index is excluded.*
+
+**Example:**
+```python
+name = "Saranya"
+
+print(name[2:5])          # rany
+```
+
+*Indexes*
+
+```txt
+Character:  S   a   r   a   n   y   a
+Index:      0   1   2   3   4   5   6
+```
+
+---
+
+**Omitting ```start```**
+
+*You can leave the starting index empty*
+
+```python
+name = "Saranya"
+
+print(name[:5])         # Saran
+```
+
+---
+
+**Omitting ```stop```**
+
+*You can also leave the ending index empty*
+
+```python
+name = "Saranya"
+
+print(name[0:])         # Saranya
+```
+
+---
+
+**Omitting Both**
+
+```python
+name = "Saranya"
+
+print(name[:])          # Saranya
+```
+
+---
+
+**Slicing with a string of one character**
+
+```python
+name = "Saranya"
+
+print(name[2:3])        # r
+```
+
+---
+
+**Out-of-Range Slicing**
+
+```python
+name = "Saranya"
+
+print(name[0:19])       # Saranya
+```
+
+*It does not cause an error. Python simply stops at the end of the string.*
+
+---
+
+**Empty Slices**
+
+```python
+name = "Saranya"
+
+print(name[3:3])            #
+```
+
+*Because the start and stop positions are the same, and the stop position is excluded.*
+
+---
+
+### **Negative Indexing**
+
+- *Negative indexing allows us to access elements of a string starting from the end using negative index value.*
+- *Python uses ```-1 → last character``` ```-2 → second-last character``` ```-3 → third-last character```*
+
+---
+
+**How Negative Indexing works?**
+
+```python
+text = "Python"
+```
+
+*Positive Indexes:*
+
+```txt
+Character:  P    y    t    h    o    n
+Positive:   0    1    2    3    4    5
+```
+
+*Negative Indexes:*
+
+```txt
+Character:  P    y    t    h    o    n
+Negative:  -6   -5   -4   -3   -2   -1
+```
+
+---
+
+**Negative Indexing with Slicing**
+
+*Negative indexes can also be used with slicing.*
+
+```python
+name = "Saranya"
+
+print(name[-3:])        # nya
+
+print(name[-4:-1])      # any
+```
+
+---
+
+### **Step Slicing**
+
+- *Step slicing allows us to specify how many positions python should move while extracting elements from a sequence.*
+- *Step slicing ```string[start:stop:step]*
+- *The third value ```step``` controls the movement between characters*
+
+---
+
+**Syntax:**
+```python
+string[start:stop:step]
+```
+
+*There are three parts*
+
+| Part    | Meaning                       |
+| ------- | ----------------------------- |
+| `start` | Where slicing begins          |
+| `stop`  | Where slicing stops, excluded |
+| `step`  | How many positions to move    |
+
+---
+
+**How does ```step``` work?**
+
+```python
+text = "Python"
+
+print(text[0:6:2])        # Pto
+```
+
+*Indexes*
+
+```txt
+Character:  P   y   t   h   o   n
+Index:      0   1   2   3   4   5
+```
+
+*Now ```text[0:6:2]``` Python starts at ```0``` and moves by ```2```*
+
+---
+
+**Using Start and Stop**
+
+```python
+text = "Python"
+
+print(text(1:6:2))          # yhn
+```
+
+---
+
+**Step of ```1```**
+
+*A step of ```1``` means move one position at a time.*
+
+```python
+text = "Python"
+
+print(text[0:6:1])          # Python
+```
+
+---
+
+**Step of ```2```**
+
+```python
+text = "Python"
+
+print(text[::2])              # Pto
+```
+
+---
+
+**Step of ```3```**
+
+```python
+text = "abcdefghi"
+
+print(text[::3])                # adg
+```
+
+---
+
+**Negative Step**
+
+*A negative step means python moves backward*
+
+```python
+text = "Python"
+
+print(text[::-1])               # nohtyP
+```
+
+---
+
+
+
 
 
 

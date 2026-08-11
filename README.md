@@ -77,6 +77,8 @@ Hey everybody!!!
       - [**Truthy and Falsy Values**](#truthy-and-falsy-values)
     - [**complex**](#complex)
   - [**Strings**](#strings)
+    - [**Creating a String**](#creating-a-string)
+    - [**Indexing**](#indexing)
 
 
 ---
@@ -3773,7 +3775,71 @@ print(a * b)          # (19+59j)
 
 ## **Strings**
 
+*A string is an immutable sequence of Unicode characters enclosed in quotes.*
 
+---
+
+### **Creating a String**
+
+*Python allows strings to be created using*
+
+**Single quotes:**
+```python
+name = 'Saranya'
+
+print(type(name))
+```
+
+**Double quotes**
+```python
+name = "Saranya"
+```
+
+---
+
+**Triple Quotes**
+
+*Python also supports triple quotes. Triple quotes are particularly useful for multi-line strings.*
+
+```python
+msg = """Hello, Saranya!!"""
+```
+
+```python
+msg = """Hello
+Welcome
+Let's learn"""
+
+print(msg)               # Hello
+                         # Welcome
+                         # Let's learn
+```
+
+---
+
+**Strings can contain Numbers**
+
+```python
+value = "12345"
+
+print(type(value))        # <class 'str'>
+```
+
+---
+
+**Strings can contain Special Characters**
+
+```python
+text = " Hai $@&*^%()"
+
+print(text, type(text))     # Hai $@&*^%() <class 'str'>
+```
+
+---
+
+### **Indexing**
+
+**
 
 
 

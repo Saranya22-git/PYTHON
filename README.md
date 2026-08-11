@@ -79,6 +79,7 @@ Hey everybody!!!
   - [**Strings**](#strings)
     - [**Creating a String**](#creating-a-string)
     - [**Indexing**](#indexing)
+    - [**String Slicing**](#string-slicing)
 
 
 ---
@@ -3920,7 +3921,36 @@ print(name[index])            # n
 
 ---
 
-****
+**Index must be an Integer**
+
+```python
+name = "Saranya"
+
+print(name[2])            # r
+
+print(name[2.0])          # TypeError
+
+print(name["2"])          # TypeError
+```
+
+---
+
+**Index Out of Range**
+
+```python
+name = "Saranya"
+
+print(name[10])       # IndexError: string index out of range
+```
+
+---
+
+### **String Slicing**
+
+**
+
+
+
 
 
 

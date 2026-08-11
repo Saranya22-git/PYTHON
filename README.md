@@ -3839,7 +3839,92 @@ print(text, type(text))     # Hai $@&*^%() <class 'str'>
 
 ### **Indexing**
 
-**
+- *String indexing is the process of accessing an individual character from a string using its position (index).*
+- *Python uses zero-based indexing*
+- *That means the first character has index ```0```*
+
+---
+
+**Syntax:**
+```python
+string[index]
+```
+
+**Example:**
+```python
+name = "Saranya"
+
+print(name[0])          # S
+
+print(name[1])          # a
+
+print(name[5])          # y
+```
+
+---
+
+**How Indexing works?**
+
+*Consider ```name = "Python"```. Python assigns an index to every character*
+
+```txt
+Character:  P   y   t   h   o   n
+Index:      0   1   2   3   4   5
+```
+
+*So*
+
+```txt
+name[0]  → 'P'
+name[1]  → 'y'
+name[2]  → 't'
+name[3]  → 'h'
+name[4]  → 'o'
+name[5]  → 'n'
+```
+
+---
+
+**Indexing a String with Spaces**
+
+*Spaces are also characters*
+
+```python
+name = "Saranya Sammeta"
+```
+
+*Indexes*
+
+```txt
+Character: S  a  r  a  n  y  a     S  a  m   m   e   t   a
+Index:     0  1  2  3  4  5  6  7  8  9  10  11  12  13  14  
+```
+
+```python
+name[7]             # ' '
+```
+
+---
+
+**Using an Expression as an Index**
+
+*The index doesn't have to be written directly*
+
+```python
+name = "Saranya"
+
+index = 3 + 1
+
+print(name[index])            # n
+```
+
+---
+
+****
+
+
+
+
 
 
 

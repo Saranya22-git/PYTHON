@@ -76,6 +76,7 @@ Hey everybody!!!
       - [**Boolean Values**](#boolean-values)
       - [**Truthy and Falsy Values**](#truthy-and-falsy-values)
     - [**complex**](#complex)
+  - [**Strings**](#strings)
 
 
 ---
@@ -3681,6 +3682,101 @@ set()
 ---
 
 ### **complex**
+
+- *A Complex number in python is a numeric data type that contains a real part and an imaginary part.*
+- *A complex number has the form ```a + bj``` where ```a → real part``` ```b → imaginary part``` ```j → imaginary unit```*
+- *Python uses j, not i, for the imaginary part*
+
+---
+
+**Creating a Complex Number**
+
+**Syntax:**
+  ```python
+  real + imaginaryj
+  ```
+
+**Example:**
+  ```python
+  a = 4 + 6j
+
+  print(type(a))
+  ```
+
+---
+
+**Negative Imaginary Part**
+
+```python
+z = 5 - 3j
+
+print(z)              # (5-3j)
+```
+
+---
+
+**Real part and Imaginary Part**
+
+*Python provides ```.real``` and ```.imag``` to access the two parts.*
+
+**Example:**
+```python
+z = 5 + 3j
+
+print(z.real)          # 5.0
+print(z.iamg)          # 3.0
+```
+
+*Notice that the real and imaginary parts are returned as ```floats```.*
+
+---
+
+**Creating complex numbers using ```complex()```**
+
+*Python also provides the ```complex()``` function.*
+
+**Syntax:**
+```python
+complex(real, imaginary)
+```
+
+**Example:**
+```python
+z = complex(5, 5)
+
+print(z)            # (5+5j)
+```
+
+---
+
+**Complex Number Operations**
+
+*Python supports arithmetic operations on complex numbers.*
+
+**Addition**
+```python
+a = 8 + 7j
+b = 5 + 3j
+
+print(a + b)          # (13+10j)
+```
+
+**Multiplication**
+```python
+a = 8 + 7j
+b = 5 + 3j
+
+print(a * b)          # (19+59j)
+```
+
+---
+
+## **Strings**
+
+
+
+
+
 
 
 

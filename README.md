@@ -82,6 +82,8 @@ Hey everybody!!!
     - [**String Slicing**](#string-slicing)
     - [**Negative Indexing**](#negative-indexing)
     - [**Step Slicing**](#step-slicing)
+    - [**String Immutability**](#string-immutability)
+    - [**String Interning**](#string-interning)
 
 
 ---
@@ -4184,6 +4186,65 @@ print(text[::-1])               # nohtyP
 ```
 
 ---
+
+### **String Immutability**
+
+*String immutability means that once a string object is created, its individual characters cannot be changed.*
+
+**Example:**
+```python
+text = "Python"
+
+text[0] = 'J'               # TypeError: 'str' object does not support item assignment
+```
+
+---
+
+**How can we modify a string?**
+
+*We create a new string*
+
+```python
+name = "Python"
+
+name = 'J' + name[1:]
+
+print(name)                 # Jython
+```
+
+*Python did not not modify ```Python```. It created a new string ```Jython``` and then assigned it to name.*
+
+---
+
+### **String Interning**
+
+*String interning is a memory optimization technique where Python reuses the same string object for certain identical strings instead of creating separate objects.*
+
+**Example:**
+```python
+a = "Python"
+b = "Python"
+
+print(a is b)             # True
+
+print(id(a))              # 1632410799632
+print(id(b))              # 1632410799632
+```
+
+---
+
+**is vs ==**
+
+*String interning is closely related to the difference between ```is``` and ```==```.*
+
+**is:** *For object identity*
+
+**==:** *For value equality*
+
+
+
+
+
 
 
 

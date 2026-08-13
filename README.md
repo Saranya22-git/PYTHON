@@ -87,6 +87,7 @@ Hey everybody!!!
     - [**Escape Characters**](#escape-characters)
     - [**Raw Strings**](#raw-strings)
     - [**Unicode**](#unicode)
+    - [**ASCII**](#ascii)
 
 
 ---
@@ -4442,6 +4443,188 @@ print(text)                     # C:\\Users\\
 ---
 
 ### **Unicode**
+
+*Unicode is a universal character-encoding standard that assigns a unique code point to characters from different writing systems, symbols, and emojis.*
+
+**Example:**
+
+```python
+name = "Saranya"
+
+text = "నమస్కారం"
+
+unic = "你好"
+
+emoji = "😀"
+```
+
+---
+
+**Python 3 and Unicode**
+
+*In Python 3, strings (str) are unicode text.*
+
+```python
+text = "నమస్కారం"
+
+print(type(text))               # <class 'str'>
+```
+
+---
+
+**Unicode Code Points**
+
+- *Every unicode character has a unique code point.*
+- *A code point is usually written like ```U+XXXX````*
+- *For example ```A → U+0041```*
+- *The U+ means this number represents a Unicode code point.*
+
+---
+
+**Unicode is much larger than English**
+
+*Unicode contains characters from many writing systems.*
+
+**Examples:**
+
+```python
+print("Hello")
+print("నమస్కారం")
+print("नमस्ते")
+print("你好")
+print("こんにちは")
+print("مرحبا")
+print("😀")
+```
+
+---
+
+**Unicode vs ASCII**
+
+**ASCII:** *ASCII is a much smaller character-encoding standard primarily designed for basic english characters and control characters.*
+
+**Unicode:** *Unicode is a much broader standard designed to represent characters from many languages and symbol sets.*
+
+---
+
+**Unicode Escape Sequences**
+
+*Python allows unicode characters to be represented using escape sequence.*
+
+```python
+text = "\u0041"
+
+print(text)               # A
+
+print("\u03A9")           # Ω
+```
+
+*The ```\u``` form is used for Unicode code points represented using for hexadecimal digits.*
+
+---
+
+**Unicode Code points beyond ```FFFF```**
+
+*Unicode also contains code points that require more than four hexadecimal digits.*
+
+- *Python supports ```\UXXXXXXXX``` with 8 hexadecimal digits.*
+- *For example, an emoji can be represented using a unicode escape*
+```python
+print("\U0001F600")             # 😀
+```
+
+---
+
+### **ASCII**
+
+*ASCII (American Standard Code for Information Interchange) is a character-encoding standard that assigns numerical values from 0 to 127 to a set of basic English letters, digits, punctuation marks and control characters.*
+
+**Example:**
+```txt
+A → 65
+B → 66
+C → 67
+
+a → 97
+b → 98
+c → 99
+```
+
+---
+
+**ASCII Range**
+
+- *The original ASCII standard contains 128 characters.*
+- *Their numeric values range from ```0 to 127```.*
+
+```txt
+ASCII = 128 characters
+Range = 0–127
+```
+
+---
+
+**What does ASCII contain?**
+
+*ASCII includes*
+
+**Uppercase letters**
+
+```txt
+A → 65
+B → 66
+...
+Z → 90
+```
+
+**Lowercase letters**
+
+```txt
+a → 97
+b → 98
+...
+z → 122
+```
+
+**Digits**
+
+```txt
+0 → 48
+1 → 49
+...
+9 → 57
+```
+
+**Punctuation and Symbols**
+
+```txt
+! → 33
+" → 34
+# → 35
+```
+
+*It also includes control characters such as newline and tab.*
+
+---
+
+**Is ASCII part of Unicode?**
+
+*Yes. The first 128 unicode code points correspond to the original ASCII characters.*
+
+```txt
+ASCII A → 65
+Unicode U+0041 → A
+```
+
+---
+
+****
+
+
+
+
+
+
 
 
 

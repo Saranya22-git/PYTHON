@@ -84,6 +84,8 @@ Hey everybody!!!
     - [**Step Slicing**](#step-slicing)
     - [**String Immutability**](#string-immutability)
     - [**String Interning**](#string-interning)
+    - [**Escape Characters**](#escape-characters)
+    - [**Raw Strings**](#raw-strings)
 
 
 ---
@@ -4240,6 +4242,127 @@ print(id(b))              # 1632410799632
 **is:** *For object identity*
 
 **==:** *For value equality*
+
+---
+
+**Explicit Interning**
+
+*Python provides the ```sys.intern()``` function.*
+
+```python
+import sys
+
+a = sys.intern("Hello World")
+b = sys.intern("Hello World")
+
+print(a is b)                 # True
+```
+
+---
+
+### **Escape Characters**
+
+*Escape Characters are special characters sequences beginning with a ```backslash (\)``` that are used to represent characters or formatting that are difficult or impossible to write directly inside a string.*
+
+*For example:*
+
+```python
+print("Hello\nWorld")             # Hello
+                                  # World
+```
+
+---
+
+**The Backslash ```\```**
+
+*Escape sequences generally begin with ```\```.*
+
+```txt
+\n
+\t
+\"
+\'
+\\
+```
+
+*The backslash tells python that the following character has a special meaning.*
+
+---
+
+**Important Escape Characters**
+
+| Escape sequence | Meaning         |
+| --------------- | --------------- |
+| `\n`            | New line        |
+| `\t`            | Tab             |
+| `\\`            | Backslash       |
+| `\'`            | Single quote    |
+| `\"`            | Double quote    |
+| `\r`            | Carriage return |
+| `\b`            | Backspace       |
+| `\f`            | Form feed       |
+| `\v`            | Vertical tab    |
+| `\a`            | Alert/bell      |
+
+---
+
+**```\n``` - New Line**
+
+*```\n``` tells python to move to the next line.*
+
+```python
+print("Hello\nWorld")             # Hello
+                                  # World
+```
+
+**```\t``` - Tab**
+
+*```\t``` inserts a tab space. Useful for formatting output.*
+
+```python
+print("Hello\tWorld")             # Hello	World
+```
+
+**```\"``` - Double Quote**
+
+*Treat this quotation mark as part of the string.*
+
+```python
+print("Hello \"World\"")          # Hello "World"
+```
+
+**```\'``` - Single Quote**
+
+```python
+print("I\'m Saranya")             # I'm Saranya
+```
+
+**```\\``` - Backslash**
+
+```python
+print("C:\\windows\\downloads\\smart")      # C:\windows\downloads\smart
+```
+
+**```\r``` - Carriage return**
+
+*```\r``` moves the cursor back to the beginning of the current line.*
+
+```python
+print("Hello\rWorld")           # World
+```
+
+**```\b``` - Backspace**
+
+```python
+print("1\bHello")               # Hello
+```
+
+---
+
+### **Raw Strings**
+
+
+
 
 
 

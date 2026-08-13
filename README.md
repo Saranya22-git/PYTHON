@@ -86,6 +86,7 @@ Hey everybody!!!
     - [**String Interning**](#string-interning)
     - [**Escape Characters**](#escape-characters)
     - [**Raw Strings**](#raw-strings)
+    - [**Unicode**](#unicode)
 
 
 ---
@@ -4361,7 +4362,86 @@ print("1\bHello")               # Hello
 
 ### **Raw Strings**
 
+*A raw string is a string in which backslashes are generally treated as literal characters rather than starting ordinary escape sequences.*
 
+*Raw strings are created by putting ```r``` before the string.*
+
+```python
+path = r"C:\Users\Saranya\Documents"
+```
+
+---
+
+**Syntax:**
+```python
+r"string"
+
+r'string'
+```
+
+**Example:**
+```python
+text = r"Hello\nWorld"
+
+print(text)                     # Hello\nWorld
+```
+
+---
+
+**Normal String vs Raw String**
+
+**Normal String**
+
+```python
+print("Hello\nWorld")             # Hello
+                                  # World
+```
+
+**Raw String**
+
+```python
+print(r"Hello\nWorld")             # Hello\nWorld
+```
+
+---
+
+**Raw Strings and Regular Expressions**
+
+*Raw Strings are especially useful with regular expressions.*
+
+**Example:**
+
+```python
+pattern = r"\d+\.\d+"
+
+print(pattern)                  # \d+\.\d+
+```
+
+---
+
+**Important Limitation**
+
+*A raw string cannot end with a single backslash.*
+
+```python
+text = r"C:\Users\"
+
+print(text)                     # SyntaxError: unterminated string literal (detected at line 1); perhaps you escaped the end quote?
+```
+
+*You can use instead*
+
+```python
+text = r"C:\\Users\\"
+
+print(text)                     # C:\\Users\\
+```
+
+*For normal everyday paths another option is to use ```pathlib```.*
+
+---
+
+### **Unicode**
 
 
 

@@ -1403,7 +1403,9 @@ Stop
 **Example:** *Addition of two numbers*
 
 **Problem:** *Add two numbers.*
+
 **Algorithm:**
+
 - **Step-1:** *Start*
 - **Step-2:** *Read number A*
 - **Step-3:** *Read number B*

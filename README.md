@@ -107,7 +107,7 @@ Hey everybody!!!
 
 OR
 
-- *Programming is the process of designing, writing, testing and maintaining instructions (called programs) that tell a cinputer how to perform specific tasks.*
+- *Programming is the process of designing, writing, testing and maintaining instructions (called programs) that tell a computer how to perform specific tasks.*
 
 ---
 

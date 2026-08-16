@@ -88,6 +88,8 @@ Hey everybody!!!
     - [**Raw Strings**](#raw-strings)
     - [**Unicode**](#unicode)
     - [**ASCII**](#ascii)
+    - [**ord()**](#ord)
+    - [**chr()**](#chr)
 
 
 ---
@@ -4620,7 +4622,59 @@ Unicode U+0041 → A
 
 ---
 
-****
+### **ord()**
+
+*```ord()``` is a built-in python function that returns the Unicode code point of a single character.*
+
+**Syntax:**
+```python
+ord(character)
+```
+
+**Example:**
+```python
+print(ord('A'))               # 65
+```
+
+---
+
+**Process a string and want to convert each character into its Unicode code point**
+
+```python
+text = "ABC"
+
+for char in text:
+  print(ord(char))            # 65
+                              # 66
+                              # 67
+```
+
+---
+
+**Numerical difference between characters**
+
+```python
+print(ord("B") - ord("A"))      # 1
+print(ord("5") - ord("8"))      # -3
+```
+
+---
+
+**Character Range Checking**
+
+```python
+char = "S"
+
+if 65 <= ord(char) <=90:
+  print("Uppercase ASCII letter")       # Uppercase ASCII letter
+```
+
+---
+
+### **chr()**
+
+
+
 
 
 

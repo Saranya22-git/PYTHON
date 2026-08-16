@@ -90,6 +90,8 @@ Hey everybody!!!
     - [**ASCII**](#ascii)
     - [**ord()**](#ord)
     - [**chr()**](#chr)
+  - [**Formatting**](#formatting)
+    - [**f-string**](#f-string)
 
 
 ---
@@ -4673,8 +4675,72 @@ if 65 <= ord(char) <=90:
 
 ### **chr()**
 
+*```chr()``` is a built-in python function that takes a Unicode code point and returns the corresponding character.*
 
+**Syntax:**
+```python
+chr(number)
+```
 
+**Example:**
+```python
+print(chr(65))          # A
+```
+
+---
+
+**```ord() vs chr()```**
+
+*These two functions are opposite*
+
+```txt
+ord() → Character → Unicode number
+
+chr() → Unicode number → Character
+```
+
+---
+
+**Generating the Alphabet**
+
+```python
+for code in range(65, 91):
+  print(chr(code), end =" ")            # A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 
+```
+
+---
+
+**```ord()``` and ```char()``` together**
+
+```python
+character = "A"
+
+code = ord(character)
+
+print(code)                   # 65
+print(chr(code))              # A
+```
+
+---
+
+**Character conversion**
+
+**Example:**
+```python
+char = "b"
+
+code = ord(char)
+
+new_char = chr(code + 1)
+
+print(new_char)             # c
+```
+
+---
+
+## **Formatting**
+
+### **f-string**
 
 
 

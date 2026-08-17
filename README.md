@@ -92,6 +92,7 @@ Hey everybody!!!
     - [**chr()**](#chr)
   - [**Formatting**](#formatting)
     - [**f-string**](#f-string)
+    - [**format()**](#format)
 
 
 ---
@@ -4741,6 +4742,150 @@ print(new_char)             # c
 ## **Formatting**
 
 ### **f-string**
+
+- *An f-string is a string formatting mechanism in Python that allows expressions and variables to be directly embedded inside a string using ```{}```*
+- *It was introduced in Python 3.6*
+
+**Syntax:**
+```python
+f"some text {expression}"
+```
+
+**Example:**
+```python
+name = "Saranya"
+age = 10
+
+print(f"My name is {name} and I'm {age} years old.")      # My name is Saranya and I'm 10 years old.
+```
+
+---
+
+**Expressions inside f-strings**
+
+```python
+a = 30
+b = 20
+
+print(f"Addition : {a + b}")            # Addition : 50
+print(f"Subtraction : {a - b}")         # Subtraction : 10
+print(f"Multiplication : {a * b}")      # Multiplication : 600
+```
+
+---
+
+**Function called inside f-strings**
+
+```python
+name = "Saranya"
+
+print(f"Uppercase: {name.upper()}")         # Uppercase: SARANYA
+```
+
+---
+
+**Conditional Expression**
+
+```python
+age = 20
+
+print(f"Status: {'Adult' if age >= 18 else 'Minor'}")       # Status: Adult
+```
+
+---
+
+**Number Formatting**
+
+*f-strings are especially useful for formatting numbers.*
+
+```python
+price = 1234.5678
+
+print(f"{price: .2f}")              #  1234.57
+```
+
+---
+
+**Decimal Places**
+
+```python
+pi = 3.14159265
+
+print(f"{pi: .2f}")               # 3.14
+print(f"{pi: .3f}")               # 3.142
+print(f"{pi: .4f}")               # 3.1416
+```
+
+---
+
+**Percentage Formatting**
+
+```python
+score = 0.8567
+
+print(f"{score: .2%}")            #  85.67%
+```
+
+---
+
+**Comma Formatting**
+
+```python
+salary = 23000000
+
+print(f"{salary: ,}")             #  23,000,000
+```
+
+---
+
+**Width and Alignment**
+
+```python
+name = "Python"
+
+print(f"{name:>10}")              #     Python
+print(f"{name:<10}")              # Python
+print(f"{name:^10}")              #  Python 
+```
+
+---
+
+**f-string with Dictionaries**
+
+```python
+student = {
+  "name" : "Saranya",
+  "age" : 10
+}
+
+
+print(f"Name: {student['name']}")         # Name: Saranya    
+print(f"Age: {student['age']}")           # Age: 10
+```
+
+---
+
+**f-string with Object Attributes**
+
+```python
+print(f"Student:{student.name}")
+```
+
+---
+
+**Escaping Curly Braces**
+
+*Suppose you want to print actual ```{``` and ```}```*
+
+```python
+print(f"{{}}")            # {}
+```
+
+---
+
+### **format()**
+
+
 
 
 

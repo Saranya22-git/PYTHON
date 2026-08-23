@@ -94,6 +94,8 @@ Hey everybody!!!
     - [**f-string**](#f-string)
     - [**format()**](#format)
     - [**%**](#)
+  - [**String Methods**](#string-methods)
+    - [**Case Methods**](#case-methods)
 
 
 ---
@@ -5064,6 +5066,195 @@ print("My name is {}".format(name))         # My name is Saranya
 ---
 
 ### **%**
+
+*```%``` string formatting is an older string-formatting technique in Python that uses % placeholders to insert values into a string.*
+
+**Syntax:**
+```python
+"format string" % values
+```
+
+**Example:**
+```python
+name = "Python"
+
+print("I'm learning %s" % name)         # I'm learning Python
+```
+
+---
+
+**Common % format specifiers**
+
+| Specifier | Meaning               |
+| --------- | --------------------- |
+| `%s`      | String                |
+| `%d`      | Integer               |
+| `%f`      | Floating-point number |
+| `%c`      | Character             |
+| `%x`      | Hexadecimal integer   |
+| `%o`      | Octal integer         |
+| `%%`      | Literal `%`           |
+
+---
+
+**```%s``` - String**
+
+```python
+name = "Python"
+
+print("I'm learning %s" % name)         # I'm learning Python
+```
+
+---
+
+**```%d``` - Integer**
+
+```python
+age = 10
+
+print("I'm %d years old." % age)          # I'm 10 years old.
+```
+
+---
+
+**```%f``` - float**
+
+```python
+price = 99.5
+
+print("Price: %f" % price)                # Price: 99.500000
+```
+
+*By default, ```%f``` displays six digits after the decimal point*
+
+---
+
+**Controlling Decimal Places**
+
+```python
+price = 99.5678
+
+print("%.2f" % price)               # 99.57
+```
+
+---
+
+**Multiple Values**
+
+```python
+name = "Saranya"
+age = 10
+
+print("Name: %s, Age: %d" % (name, age))          # Name: Saranya, Age: 10
+```
+
+---
+
+**Multiple Integers**
+
+```python
+a = 10
+b = 20
+
+print("%d + %d = %d" % (a, b, a + b))               # 10 + 20 = 30
+```
+
+---
+
+**```%c``` - character**
+
+- *```%c``` can format a single character*
+- *It can also accept an integer representing a Unicode code point*
+- *This connects directly with the ```ord()``` ```chr()```*
+
+```python
+print("%c" % "A")                   # A
+```
+
+```python
+print("%c" % 67)                     # C
+```
+
+---
+
+**```%x``` - Hexadecimal**
+
+```python
+number = 255
+
+print("%x" % number)                  # ff
+```
+
+*For uppercase hexadecimal*
+
+```python
+number = 255
+
+print("%X" % number)                  # FF
+```
+
+---
+
+**```%o``` - Octal**
+
+```python
+number = 10
+
+print("%o" % number)                  # 12
+```
+
+---
+
+**```%%``` - Literal Percentage**
+
+```python
+score = 95
+
+print("Score: %d%%" % score)          # Score: 95%
+```
+
+---
+
+**```%``` vs ```format()``` vs ```f-string```**
+
+*```%```*
+
+```python
+name = "Saranya"
+
+print("My name is %s" % name)               # My name is Saranya
+```
+
+*```format()```*
+
+```python
+name = "Saranya"
+
+print("My name is {}". format(name))              # My name is Saranya
+```
+
+*```f-string```*
+
+```python
+name = "Saranya"
+
+print(f"My name is {name}")                   # My name is Saranya
+```
+
+---
+
+## **String Methods**
+
+### **Case Methods**
+
+
+
+
+
+
+
+
+
 
 
 

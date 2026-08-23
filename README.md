@@ -96,6 +96,7 @@ Hey everybody!!!
     - [**%**](#)
   - [**String Methods**](#string-methods)
     - [**Case Methods**](#case-methods)
+    - [**Search Methods**](#search-methods)
 
 
 ---
@@ -5246,6 +5247,191 @@ print(f"My name is {name}")                   # My name is Saranya
 ## **String Methods**
 
 ### **Case Methods**
+
+*Case methods are string methods used to change or check the capitalization of characters in a string.*
+
+**Important case-related methods**
+
+```txt
+upper()
+lower()
+captialize()
+title()
+swapcase()
+casefold()
+```
+
+*These methods do not modify the original string, because strings are immutable*
+
+---
+
+**```upper()```**
+
+*Converts all alphabetic characters to uppercase.*
+
+**Syntax:**
+```python
+string.upper()
+```
+
+**Example:**
+```python
+name = "Saranya"
+
+print(name.upper())             # SARANYA
+```
+
+---
+
+**```lower()```**
+
+*Converts all alphabetic characters to lowercase.*
+
+**Syntax:**
+```python
+string.lower()
+```
+
+**Example:**
+```python
+name = "SARANYA"
+
+print(name.lower())               # saranya
+```
+
+---
+
+**```capitalize()```**
+
+*```capitalize()``` makes the first character uppercase and remaining characters lowercase.*
+
+**Example:**
+```python
+text = "hello WORLD"
+
+print(text.capitalize())            # Hello world
+```
+
+---
+
+**```title()```**
+
+*```title()``` converts the first character of each word to uppercase and the remaining characters of those words to lowercase.*
+
+**Example:**
+```python
+text = "hello world!!!"
+
+print(text.title())                 # Hello World!!!
+```
+
+---
+
+**```swapcase()```**
+
+*```swapcase()``` reverses the case of each alphabetic character.*
+
+**Example:**
+```python
+name = "SaRanya"
+
+print(name.swapcase())                # sArANYA
+```
+
+---
+
+**```casefold()```**
+
+- *```casefold()``` is used for case-insensitive comparisons*
+- *It is similar to lower() but more aggressive and designed for Unicode-aware case-insensitive matching.*
+
+**Example:**
+```python
+name = "Saranya"
+
+print(name.casefold())                # saranya
+```
+
+---
+
+**Methods return a new string**
+
+*Python strings are immutable*
+
+```python
+name = "Saranya"
+
+name.upper()
+
+print(name, id(name))                 # Saranya 2222358599872
+
+print(name.upper(), id(name.upper()))       # SARANYA 2222358736656
+```
+
+---
+
+**Methods don't change numbers**
+
+- *Case methods primarily affect alphabetic characters.*
+- *Numbers and punctuation remain unchanged*
+
+```python
+text = "python123#$"
+
+print(text.upper())                 # PYTHON123#$
+```
+
+---
+
+### **Search Methods**
+
+*Search Methods help us find characters or substrings inside a string.*
+
+**Important search methods**
+
+```txt
+find()
+rfind()
+index()
+rindex()
+count()
+startswith()
+endswith()
+```
+
+---
+
+**```find()```**
+
+*```find()``` searches for a substring and returns its first position (index).*
+
+**Synatx:**
+```python
+string.find(substring)
+```
+
+**Example:**
+```python
+text = "My name is Saranya"
+
+print(text.find("Saranya"))               # 11
+```
+
+**Searching for a Character**
+
+```python
+text = "Python"
+
+print(text.find("h"))                     # 3
+```
+
+
+
+
+
+
+
+
 
 
 

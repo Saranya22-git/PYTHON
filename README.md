@@ -93,6 +93,7 @@ Hey everybody!!!
   - [**Formatting**](#formatting)
     - [**f-string**](#f-string)
     - [**format()**](#format)
+    - [**%**](#)
 
 
 ---
@@ -4885,8 +4886,184 @@ print(f"{{}}")            # {}
 
 ### **format()**
 
+*```format()``` is a string formatting method that inserts values into placeholders ```{}``` inside a string.*
 
+**Syntax:**
+```python
+"string {}". format(value)
+```
 
+**Example:**
+```python
+name = 'Saranya'
+age = 10
+
+print("My name is {} and I'm {}". format(name, age))          # My name is Saranya and I'm 10
+```
+
+---
+
+**Positional Arguments**
+
+```python
+name = "Saranya"
+age = 10
+
+print("My name is {0} and I'm {1}". format(name, age))         # My name is Saranya and I'm 10
+```
+
+```txt
+0 → first argument
+1 → second argument
+```
+
+---
+
+**Reusing an Argument**
+
+```python
+name = "Saranya"
+
+print("My name is {0}. {0} loves chocolate.".format(name))          # My name is Saranya. Saranya loves chocolate.
+```
+
+---
+
+**Changing the Order**
+
+```python
+first = "Python"
+second = "SQL"
+
+print("{0} and {1}". format(first, second))         # Python and SQL
+```
+
+---
+
+**Keyword Arguments**
+
+```python
+print("Name: {name}, Age: {age}".format(name = "Saranya", age = 20))          # Name: Saranya, Age: 20
+```
+
+---
+
+**Expressions with format()**
+
+```python
+a = 10
+b = 20
+
+print("Sum = {}". format(a+b))          # Sum = 30
+```
+
+---
+
+**Number Formatting**
+
+```python
+price = 1234.5678
+
+print("{:.2f}".format(price))             # 1234.578
+```
+
+---
+
+**Percentage Formatting**
+
+```python
+percentage = 0.5366
+
+print("{:.2%}".format(percentage))          # 53.66%
+```
+
+---
+
+**Comma Formatting**
+
+```python
+salary = 1000000
+
+print("{:,}".format(salary))            # 1,000,000
+```
+
+---
+
+**Alignment**
+
+*Right Alignment*
+
+```python
+name = "Python"
+
+print("{:>10}".format(name))              #     Python
+```
+
+*Left Alignment*
+
+```python
+name = "Python"
+
+print("{:<10}".format(name))              # Python    
+```
+
+*Center Alignment*
+
+```python
+name = "Python"
+
+print("{:^10}".format(name))              #   Python  
+```
+
+---
+
+**Fill Characters**
+
+```python
+name = "Python"
+
+print("{:*^10}".format(name))             # **Python**
+```
+
+```txt
+* → fill character
+^ → center
+10 → width
+```
+
+---
+
+**```format()``` with Dictionaries**
+
+```python
+student = {"name": "Saranya", "age": 10, "course": "Python"}
+
+print("Name : {name}, Age : {age}, Course : {course}".format(**student))                      # Name : Saranya, Age : 10, Course : Python
+```
+
+---
+
+**```format()``` vs ```f-string```**
+
+*```f-string``` variables/expressions are written directly inside the string*
+
+```python
+name = "Saranya"
+
+print(f"Hello {name}")              # Hello Saranya
+```
+
+*```format()``` values are supplied after the string*
+
+```python
+name = "Saranya"
+
+print("My name is {}".format(name))         # My name is Saranya
+```
+
+---
+
+### **%**
 
 
 

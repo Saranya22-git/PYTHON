@@ -5425,6 +5425,229 @@ text = "Python"
 print(text.find("h"))                     # 3
 ```
 
+---
+
+**```find()``` when the substring doesn't exist**
+
+```python
+text = "Python"
+
+print(text.find("Saranya"))               # -1
+```
+
+*```find()``` returns -1 when the substring is not found.*
+
+---
+
+**```find()``` with start and end positions**
+
+**Syntax:**
+```python
+string.find(substring, start, end)
+```
+
+**Example:**
+```python
+text = "Python Python"
+
+print(text.find("Python", 1))           # 7
+```
+
+*The first ```"Python"``` starts at 0, but searching starts from index 1 so Python finds the second occurrence.*
+
+---
+
+**```rfind()```**
+
+*```rfind()``` searches from the right side and returns the position of the last occurrence.*
+
+```python
+text = "Python Python"
+
+print(text.rfind("Python"))               # 7
+```
+
+```python
+fruit = "banana"
+
+print(fruit.rfind("a"))                   # 5
+```
+
+---
+
+**```find()``` vs ```rfind()```**
+
+```python
+fruit = "banana"
+
+print(fruit.find("a"))                    # 1
+print(fruit.rfind("a"))                   # 5
+```
+
+---
+
+**```index()```**
+
+*```index()``` is similar to ```find()```*
+
+```python
+text = "Python"
+
+print(text.index("o"))                    # 4
+```
+
+---
+
+**```find()``` vs ```index()```**
+
+*Suppose the substring doesn't exist*
+
+**```find()```**
+
+```python
+text = "Python"
+
+print(text.find("s"))                     # -1
+print(text.index("s"))                    # ValueError: substring not found
+```
+
+---
+
+**```rindex()```**
+
+*```rindex()``` is the right-to-left version of index()*
+
+```python
+text = "banana"
+
+print(text.rindex("a"))                     # 5
+```
+
+---
+
+**```count()```**
+
+*```count()``` tells you how many times a substring occurs.*
+
+**Syntax:**
+```python
+string.count(substring)
+```
+
+**Example:**
+```python
+text = "banana"
+
+print(text.count("a"))                        # 3
+```
+
+---
+
+**```count()``` with a substring**
+
+```python
+text = "Python Python"
+
+print(text.count("Python"))                   # 2
+print(text.count(" "))                        # 1
+print(text.count(""))                         # 14
+print(text.count("a",2))                      # 2
+```
+
+---
+
+**```count()``` returns zero**
+
+*If a substring doesn't exist*
+
+```python
+text = "banana"
+
+print(text.count("s"))                        # 0
+``` 
+
+---
+
+**```startswith()```**
+
+- *```startswith()``` checks whether a string begins with a particular substring.*
+- *It returns a Boolean ```True False```*
+
+**Example:**
+```python
+text = "banana"
+
+print(text.startswith("b"))                   # True
+print(text.startswith("s"))                   # False
+print(text.startswith("ban"))                 # True
+```
+
+---
+
+**```endswith()```**
+
+- *```endswith()``` checks whether a string ends with a particular substring.*
+
+**Example:**
+```python
+text = "banana"
+
+print(text.endswith("a"))                     # True
+print(text.endswith("A"))                     # False
+```
+
+---
+
+**Case Sensitivity**
+
+*Search methods are generally case-sensitive*
+
+**Example:**
+```python
+text = "Python"
+
+print(text.find("python"))                    # -1
+```
+
+*Because Python and python are different strings. If you want a case-insensitive search, normalize the strings.*
+
+*If you want a case-insensitive search, normalize the strings*
+
+```python
+text = "Python"
+
+print(text.casefold().find("python"))           # 0
+```
+
+---
+
+**Searching with Start and End**
+
+*Several search methods support optional ```start``` and ```end```arguments*
+
+**Example:**
+```python
+text = "banana"
+
+print(text.find("a",2))                         # 3
+print(text.count("a",2))                        # 2
+```
+
+---
+
+**```startswith()``` with Multiple Options**
+
+```python
+filename = "report.csv"
+
+print(filename.startswith(("report","sales")))          # True
+```
+
+*This means does the string start with either "report" or "sales"?*
+
+
+
+
 
 
 

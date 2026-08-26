@@ -5768,6 +5768,34 @@ print(text.isalnum())                         # False
 
 ---
 
+**```isspace()```**
+
+*Checks whether all characters are whitespace characters.*
+
+```python
+text = " "
+
+print(text.isspace())                          # True
+```
+
+*It can recognize whitespace such as spaces, tabs, and newlines.*
+
+```python
+print("\t".isspace())                         # True
+print("\n".isspace())                         # True
+```
+
+```python
+text = ""
+
+print(text.isspace())                         # False
+```
+
+---
+
+**```islower()```**
+
+
 
 
 

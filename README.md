@@ -5713,6 +5713,67 @@ print(text.isdigit())                      # False
 
 ---
 
+**```isdecimal()```**
+
+*Checks whether all characters are decimal characters*
+
+```python
+print("1234".isdecimal())                   # True
+```
+
+- *For basic decimal digits ```isdigit() ≈ isdecimal()``` but they are not exactly the same.*
+- *Unicode contains some digit-like characters that isdigit() accepts but isdecimal() does not.*
+
+---
+
+**```isnumeric()```**
+
+*```isnumeric()``` is broader than ```isdigit()```. It checks whether all characters are numeric characters.*
+
+```python
+print("123".isnumeric())                    # True
+```
+
+```txt
+isdecimal()
+    ↓
+isdigit()
+    ↓
+isnumeric()
+```
+
+*Every decimal character is a digit, and every digit is numeric, but the reverse is not always true.*
+
+---
+
+**```isalnum()```**
+
+*```isalnum()``` means Alphabetic or Numeric.*
+
+```python
+text = "12345Saran"
+
+print(text.isalnum())                         # True
+```
+
+```python
+text = "12345 Saran"
+
+print(text.isalnum())                         # False
+```
+
+```python
+"Python@124".isalnum()                        # False
+```
+
+---
+
+
+
+
+
+
+
 
 
 

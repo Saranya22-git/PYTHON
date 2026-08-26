@@ -97,6 +97,7 @@ Hey everybody!!!
   - [**String Methods**](#string-methods)
     - [**Case Methods**](#case-methods)
     - [**Search Methods**](#search-methods)
+    - [**Validation Methods**](#validation-methods)
 
 
 ---
@@ -5644,6 +5645,73 @@ print(filename.startswith(("report","sales")))          # True
 ```
 
 *This means does the string start with either "report" or "sales"?*
+
+---
+
+### **Validation Methods**
+
+*String Validation Methods are built-in string methods that check whether the characters in a string satisfy a particular condition and return a Boolean value.*
+
+*The important methods are*
+
+```txt
+isalpha()
+isdigit()
+isdecimal()
+isnumeric()
+isalnum()
+isspace()
+islower()
+isupper()
+istitle()
+isidentifier()
+isascii()
+isprintable()
+```
+
+---
+
+**```isalpha()```**
+
+*Checks whether all characters are alphabetic.*
+
+```python
+text = "Python"
+
+print(text.isalpha())                     # True
+```
+
+```python
+text = "Python123"
+
+print(text.isalpha())                     # False
+```
+
+*Because the string contains digits*
+
+```python
+"".isalpha()                              # False
+```
+
+---
+
+**```isdigit()```**
+
+*Checks whether all characters are digits.*
+
+```python
+text = "12345"
+
+print(text.isdigit())                      # True
+```
+
+```python
+text = "12345Saran"
+
+print(text.isdigit())                      # False
+```
+
+---
 
 
 

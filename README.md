@@ -5845,6 +5845,22 @@ print("Python123".isupper())                    # False
 
 **```istitle()```**
 
+*Checks whether the string follows title-case rules.*
+
+```python
+text = "Python Programming"
+
+print(text.istitle())                           # True
+```
+
+```python
+text = "python Programming"
+
+print(text.istitle())                           # False
+```
+
+---
+
 
 
 

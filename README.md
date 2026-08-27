@@ -5795,6 +5795,58 @@ print(text.isspace())                         # False
 
 **```islower()```**
 
+*Checks whether the string contains cased characters and all of those cased characters are lowercase.*
+
+```python
+text = "Python"
+
+print(text.islower())                         # False
+```
+
+```python
+text = "python"
+
+print(text.islower())                         # True
+```
+
+**Numbers don't have a case**
+
+```python
+print("python123".islower())                  # True
+print("Python123".islower())                  # False
+```
+
+---
+
+**```isupper()```**
+
+*Checks whether the string contains cased characters and all of them are uppercase.*
+
+```python
+text = "Python"
+
+print(text.isupper())                         # False
+```
+
+```python
+text = "PYTHON"
+
+print(text.isupper())                         # True
+```
+
+**Numbers don't affect the case check**
+
+```python
+print("PYTHON123".isupper())                    # True
+print("Python123".isupper())                    # False
+```
+
+---
+
+**```istitle()```**
+
+
+
 
 
 

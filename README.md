@@ -5909,6 +5909,19 @@ print("😀".isascii())                           # False
 
 **```isprintable()```**
 
+*Checks whether all characters are printable.*
+
+```python
+print("Hello".isprintable())                    # True
+print("Hello\nWorld".isprintable())             # False
+```
+
+---
+
+**Empty Strings**
+
+
+
 
 
 

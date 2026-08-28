@@ -5920,7 +5920,17 @@ print("Hello\nWorld".isprintable())             # False
 
 **Empty Strings**
 
+*Most validation methods return False for an empty string.*
 
+```python
+print("".isalpha())                             # False
+print("".isdigit())                             # False
+print("".isalnum())                             # False
+print("".isspace())                             # False
+print("".islower())                             # False
+```
+
+---
 
 
 

@@ -98,6 +98,7 @@ Hey everybody!!!
     - [**Case Methods**](#case-methods)
     - [**Search Methods**](#search-methods)
     - [**Validation Methods**](#validation-methods)
+    - [**Replace Methods**](#replace-methods)
 
 
 ---
@@ -5931,6 +5932,26 @@ print("".islower())                             # False
 ```
 
 ---
+
+### **Replace Methods**
+
+*```replace()``` is a string method used to replace occurrences of one substring with another substring.*
+
+**Syntax:**
+```python
+string.replace(old, new)
+```
+
+**Example:**
+```python
+text = "I like Java"
+
+result = text.replace("Java", "Python")
+
+print(result)                                   # I like Python
+```
+
+
 
 
 

@@ -5711,6 +5711,10 @@ text = "12345Saran"
 print(text.isdigit())                      # False
 ```
 
+```python
+"-25".isdigit()                            # False
+```
+
 ---
 
 **```isdecimal()```**
@@ -5860,6 +5864,56 @@ print(text.istitle())                           # False
 ```
 
 ---
+
+**```isidentifier()```**
+
+*Checks whether a string is a valid Python Identifier.*
+
+```python
+print("name".isidentifier())                    # True
+print("student_name".isidentifier())            # True
+print("123name".isidentifier())                 # False
+```
+
+---
+
+**Important**
+
+*```isidentifier()``` does not check Keywords.*
+
+```python
+print("if".isidentifier())                      # True
+print("class".isidentifier())                   # True
+```
+
+---
+
+**```isascii()```**
+
+*Checks whether all characters are ASCII characters.*
+
+```python
+print("Python".isascii())                       # True
+print("Pyth%n".isascii())                       # True
+print("Python123".isascii())                    # True
+```
+
+```python
+print("నమస్కారం".isascii())                    # False
+print("😀".isascii())                           # False
+```
+
+*Because those characters are outside ASCII.*
+
+---
+
+**```isprintable()```**
+
+
+
+
+
+
 
 
 

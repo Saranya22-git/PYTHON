@@ -6005,7 +6005,33 @@ print(text.replace("Python", "Java"))             # Java Java SQL
 
 ---
 
-****
+**The ```count``` parameter**
+
+*```replace()``` has an optional third argument. The ```count``` specifies the maximum number of replacements.*
+
+**Syntax:**
+```python
+string.replace(old, new, count)
+```
+
+**Example:**
+```python
+text = "Python Python Python"
+
+print(text.replace("Python", "SQL", 1))                 # SQL Python Python
+```
+
+---
+
+**Replacing the first two occurrences**
+
+```python
+text = "Python Python Python"
+
+print(text.replace("Python", "SQL", 2))                 # SQL SQL Python
+```
+
+
 
 
 

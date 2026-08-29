@@ -6138,6 +6138,94 @@ applies translation table
 
 ### **Split**
 
+*```split()``` is a string method used to divide a string into multiple parts and return them as a list.*
+
+**Syntax:**
+```python
+string.split(separator, maxsplit)
+```
+
+*Both separator and maxsplit are optional.*
+
+---
+
+```python
+text = "Python SQL Excel"
+
+print(text.split())                         # ['Python', 'SQL', 'Excel']
+
+print(type(text))                           # <class 'str'>
+```
+
+---
+
+**Splitting Using a specific Separator**
+
+```python
+text = "Python, SQL, Excel"
+
+print(text.split(","))                      # ['Python', ' SQL', ' Excel']
+```
+
+---
+
+**What is a Separator/Delimiter?**
+
+*A delimiter is a character or substring used to separate pieces of data.*
+
+```txt
+,   → comma
+-   → hyphen
+:   → colon
+|   → pipe
+```
+
+```python
+data = "apple-orange-banana"
+
+print(data.split("-"))                        # ['apple', 'orange', 'banana']
+```
+
+---
+
+**Splitting on ```-```**
+
+```python
+date = "29-08-2026"
+
+print(date.split("-"))                        # ['29', '08', '2026']
+```
+
+---
+
+**Splitting on ```,```**
+
+```python
+data = "Python,SQL,Power BI,Excel"
+
+print(data.split(","))                        # ['Python', 'SQL', 'Power BI', 'Excel']
+```
+
+---
+
+**```maxsplit()```**
+
+*It specifies the maximum number of splits.*
+
+**Syntax:**
+```python
+string.split(separator, maxsplit)
+```
+
+**Example:**
+```python
+text = "Python SQL Excel PowerBI"
+
+print(text.split(" ", 2))                     # ['Python', 'SQL', 'Excel PowerBI']
+```
+
+---
+
 
 
 

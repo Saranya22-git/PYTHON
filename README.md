@@ -99,6 +99,7 @@ Hey everybody!!!
     - [**Search Methods**](#search-methods)
     - [**Validation Methods**](#validation-methods)
     - [**Replace Methods**](#replace-methods)
+    - [**Split**](#split)
 
 
 ---
@@ -6062,6 +6063,81 @@ print(text.replace(" ", ""))                            # Python
 ```
 
 ---
+
+**Replacing Multiple Different Characters**
+
+```python
+text = "Hello, World!"
+
+text = text.replace(",","")
+text = text.replace("!","")
+
+print(text)                                   # Hello World
+```
+
+---
+
+**Chaining replace()**
+
+```python
+text = "Hello, World!"
+
+result = text.replace(",","").replace("!","")
+
+print(result)                               # Hello World
+```
+
+---
+
+**Case Sensitivity**
+
+*```replace()``` is case-sensitive.*
+
+```python
+text = "Python python Python"
+
+print(text.replace("python", "SQL"))                  # Python SQL Python
+```
+
+---
+
+**Replacing a substring with a longer string**
+
+```python
+text = "I like Python"
+
+print(text.replace("Python", "Python Programming"))           # I like Python Programming
+```
+
+---
+
+**```translate()``` and ```maketrans()```**
+
+*For replacing individual characters according to a mapping, Python provides ```translate()``` and ```maketrans()```*
+
+**Example:**
+```python
+text = "hello"
+
+text = str.maketrans("helo", "HELO")
+
+print(text.transalte(table))                          # HELLO
+```
+
+```txt
+maketrans()
+    ↓
+creates translation table
+
+translate()
+    ↓
+applies translation table
+```
+
+---
+
+### **Split**
+
 
 
 

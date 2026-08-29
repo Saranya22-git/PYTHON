@@ -6226,6 +6226,31 @@ print(text.split(" ", 2))                     # ['Python', 'SQL', 'Excel PowerBI
 
 ---
 
+**```maxsplit=0```**
+
+```python
+text = "Python SQL Excel PowerBI"
+
+print(text.split(" ", 0))                     # ['Python SQL Excel PowerBI']
+```
+
+---
+
+**Splitting a sentence**
+
+```python
+sentence = "Python is easy to learn"
+
+print(sentence.split())                        # ['Python', 'is', 'easy', 'to', 'learn']
+```
+
+---
+
+
+
+
+
+
 
 
 

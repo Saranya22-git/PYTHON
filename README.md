@@ -6031,6 +6031,38 @@ text = "Python Python Python"
 print(text.replace("Python", "SQL", 2))                 # SQL SQL Python
 ```
 
+---
+
+**```count = 0```**
+
+```python
+text = "Python Python Python"
+
+print(text.replace("Python", "SQL", 0))                 # Python Python Python
+```
+
+---
+
+**Replacing with an Empty String**
+
+```python
+text = "Python Programming"
+
+print(text.replace("Python", ""))                       # Programming
+```
+
+---
+
+**Removing Spaces**
+
+```python
+text = "P y t h o n"
+
+print(text.replace(" ", ""))                            # Python
+```
+
+---
+
 
 
 

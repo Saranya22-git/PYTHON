@@ -5951,8 +5951,61 @@ result = text.replace("Java", "Python")
 print(result)                                   # I like Python
 ```
 
+---
 
+**Strings are Immutable**
 
+```python
+text = "Python"
+
+text.replace("P", "J")
+
+print(text)                                    # Python
+```
+
+*Because strings are immutable. replace() does not modify the original string. It creates and returns a new string.*
+
+```python
+text = "Python"
+
+text = text.replace("P", "J")
+
+print(text)                                   # Jython
+```
+
+---
+
+**Basic Replacement**
+
+```python
+text = "Python"
+
+print(text.replace("P","J"))                  # Jython
+```
+
+---
+
+**Replacing a Character**
+
+```python
+text = "banana"
+
+print(text.replace("a","o"))                    # bonono
+```
+
+---
+
+**Replacing Multiple Occurrences**
+
+```python
+text = "Python Python SQL"
+
+print(text.replace("Python", "Java"))             # Java Java SQL
+```
+
+---
+
+****
 
 
 

@@ -6493,6 +6493,97 @@ print("".join(["P","y","t","h","o","n"]))               # Python
 
 ---
 
+**```join()``` works on strings too**
+
+*A string itself is iterable.*
+
+```python
+text = "Python"
+
+print("-".join(text))                                 # P-y-t-h-o-n
+```
+
+---
+
+**```join()``` with a Tuple**
+
+*```join()``` doesn't require specifically a list. It accepts an iterable of strings.*
+
+```python
+words = ("Python", "SQL", "Excel")
+
+print(" | ".join(words))                              # Python | SQL | Excel
+```
+
+```txt
+list       → works
+tuple      → works
+string     → works
+other iterable → can work
+```
+
+---
+
+**All Elements must be Strings**
+
+```python
+numbers = ["10", "20", "30", "40"]
+
+print("-".join(numbers))                              # 10-20-30-40
+```
+
+*But this does not work*
+
+```python
+number = [10, 20, 30]
+
+print("-".join(numbers))                        # TypeError
+```
+
+*Because ```join()``` expects the iterable's elements to be strings.*
+
+---
+
+**Joining numbers correctly**
+
+```python
+numbers = [10, 20 ,30]
+
+result = "-".join(map(str, numbers))
+
+print(result)                               # 10-20-30
+```
+
+---
+
+**```split()``` and ```join()``` together**
+
+```python
+text = "Python is easy"
+
+print(text.split())                       # ['Python', 'is', 'easy']
+print("-".join(text.split()))             # Python-is-easy
+```
+
+---
+
+**Empty List**
+
+```python
+word = []
+
+print(" ".join(word))                     # 
+" ".join(word)                            # ''
+```
+
+---
+
+**One Element**
+
+```python
+
+
+
 
 
 

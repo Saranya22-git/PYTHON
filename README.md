@@ -6246,8 +6246,43 @@ print(sentence.split())                        # ['Python', 'is', 'easy', 'to', 
 
 ---
 
+**Splitting User Input**
 
+```python
+skills = input("Enter skills:").split()
 
+print(skills)                                 # ['Python,', 'SQL,', 'Excel,', 'PowerBI']
+```
+
+---
+
+**Multiple Inputs Using ```split()```**
+
+```python
+a, b = input().split()
+
+print(a, type(a))                             # 10 <class 'str'>
+print(b)                                      # 20
+```
+
+```python
+a, b = map(int, input().split())
+
+print(a, type(a))                             # 10 <class 'int'>
+print(b)                                      # 20
+```
+
+---
+
+**```split()``` + ```map()```**
+
+```python
+numbers = list(map(int, input().split()))
+
+print(numbers)                                # [10, 20, 30, 40]
+```
+
+---
 
 
 

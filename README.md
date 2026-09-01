@@ -100,7 +100,7 @@ Hey everybody!!!
     - [**Validation Methods**](#validation-methods)
     - [**Replace Methods**](#replace-methods)
     - [**Split**](#split)
-    - [**joins**](#joins)
+    - [**Join**](#join)
 
 
 ---
@@ -6439,7 +6439,62 @@ partition()
 
 ---
 
-### **joins**
+### **Join**
+
+*```join()``` is a string method used to combine elements of an iterable into a single string, using the string on which ```join()``` is called as the separator.*
+
+**Syntax:**
+```python
+separator.join(iterable)
+```
+
+**Example:**
+```python
+words = ["Python", "SQL", "Excel"]
+
+result = " ".join(words)
+
+print(result, type(result))                                 # Python SQL Excel <class 'str'>
+```
+
+---
+
+**Using Different Separators**
+
+**Space:**
+
+```python
+print(" ".join(["Python", "SQL"]))                    # Python SQL
+```
+
+**Comma:**
+
+```python
+print(",".join(["Python", "SQL"]))                     # Python,SQL
+```
+
+**Comma + Space:**
+
+```python
+print(", ".join(["Python", "SQL"]))                     # print(", ".join(["Python", "SQL"]))
+```
+
+**Hyphen:**
+
+```python
+print("-".join(["Python", "SQL"]))                      # Python-SQL
+```
+
+**Empty String:**
+
+```python
+print("".join(["P","y","t","h","o","n"]))               # Python
+```
+
+---
+
+
+
 
 
 

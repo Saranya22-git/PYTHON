@@ -100,6 +100,7 @@ Hey everybody!!!
     - [**Validation Methods**](#validation-methods)
     - [**Replace Methods**](#replace-methods)
     - [**Split**](#split)
+    - [**joins**](#joins)
 
 
 ---
@@ -6372,6 +6373,76 @@ print(text.split(","))                        # ['A', '', 'B']
 ```
 
 ---
+
+**```split()``` returns a list**
+
+```python
+text = "Python SQL Excel"
+
+result = text.split()
+
+print(result, type(result))                     # ['Python', 'SQL', 'Excel'] <class 'list'>
+```
+
+---
+
+**```split()``` does not modify the original string**
+
+```python
+text = "Python SQL"
+
+text.split()
+
+print(text)                                     # Python SQL
+```
+
+---
+
+**```split()``` vs ```rsplit()```**
+
+*There is related method called ```rsplit()```.*
+- *```split()``` splits from left*
+- *```rsplit()``` splits from right*
+
+```python
+text = "A-B-C-D"
+
+print(text.split("-",1))                        # ['A', 'B', 'C-D']
+
+print(text.rsplit("-",2))                       # ['A-B', 'C', 'D']
+```
+
+---
+
+**```split()``` vs ```partition()```**
+
+*Another related method is ```partition()``` but it behaves differently.*
+
+```python
+text = "Python-SQL"
+
+print(text.split("-"))                            # ['Python', 'SQL']
+
+print(text.partition("-"))                        # ('Python', '-', 'SQL')
+```
+
+```txt
+split()
+→ returns list
+
+partition()
+→ returns 3-part tuple:
+   before separator
+   separator
+   after separator
+```
+
+---
+
+### **joins**
+
+
+
 
 
 

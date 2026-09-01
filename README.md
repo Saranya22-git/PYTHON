@@ -6284,6 +6284,94 @@ print(numbers)                                # [10, 20, 30, 40]
 
 ---
 
+**Splitting with Multiple Spaces**
+
+*Default ```split()``` behaves differently from explicitly specifying ```" "```.*
+
+```python
+text = "Python   SQL"
+
+print(text.split())                           # ['Python', 'SQL']
+```
+
+```python
+text = "Python   SQL"
+
+print(text.split(" "))                        # ['Python', '', '', 'SQL']
+```
+
+*Because when you explicitly specify ```" "``` each individual space is treated as a separator.*
+
+---
+
+**```split()``` vs ```split(" ")```**
+
+```python
+
+print("Python   SQL".split())                 # ['Python', 'SQL']
+
+print("Python   SQL".split(" "))              # ['Python', '', '', 'SQL']
+```
+
+*When you simply want to separate whitespace-delimited words, prefer ```split()``` without an argument.*
+
+---
+
+**Splitting on Newline**
+
+```python
+text = "Python\nSQL\nExcel"
+
+print(text.split("\n"))                       # ['Python', 'SQL', 'Excel']
+```
+
+---
+
+**Splitting on Multiple Characters**
+
+```python
+text = "Python:::SQL::Excel"
+
+print(text.split(":"))                        # ['Python', '', '', 'SQL', '', 'Excel']
+```
+
+*So the separator can be One character or multiple characters.*
+
+---
+
+**What happens with an Empty String?**
+
+```python
+text = ""
+
+print(text.split())                           # []
+```
+
+*An empty string produces an empty list when using default whitespace splitting.*
+
+---
+
+**What happens when the Separator isn't found?**
+
+```python
+text = "Python SQL"
+
+print(text.split(","))                        # ['Python SQL']
+```
+
+*No comma exists, so the original string becomes one list element.*
+
+---
+
+**Consecutive Separators**
+
+```python
+text = "A,,B"
+
+print(text.split(","))                        # ['A', '', 'B']
+```
+
+---
 
 
 

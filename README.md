@@ -6581,6 +6581,70 @@ print(" ".join(word))                     #
 **One Element**
 
 ```python
+words = ["Python"]
+
+print("-".join(words))                    # Python
+```
+
+*There is no separator because there is only one element. The separator goes between elements.*
+
+---
+
+**Two Elements**
+
+```python
+words = ["Python", "SQL"]
+
+print(" + ".join(words))                  # Python + SQL
+```
+
+---
+
+**Three Elements**
+
+```python
+words = ["Python", "SQL", "Excel"]
+
+print(" | ".join(words))                  # Python | SQL | Excel
+```
+
+**General rule:**
+
+```txt
+n elements
+→ n - 1 separators
+```
+
+```txt
+3 elements → 2 separators
+5 elements → 4 separators
+```
+
+---
+
+**Separator can be more than One Character**
+
+*It doesn't have to be a single character.*
+
+```python
+words = ["Python", "SQL", "Excel"]
+
+print(" ----->| ".join(words))                  # Python ----->| SQL ----->| Excel
+```
+
+*The separator can be*
+
+```txt
+", "
+" - "
+" | "
+" ---> "
+```
+
+*or any other string.*
+
+---
+
 
 
 

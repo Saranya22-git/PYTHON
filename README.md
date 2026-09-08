@@ -6645,6 +6645,81 @@ print(" ----->| ".join(words))                  # Python ----->| SQL ----->| Exc
 
 ---
 
+**```join()``` does not modify the original iterable**
+
+```python
+words = ["Python", "SQL"]
+
+result = " - ".join(words)
+
+print(words)                            # ['Python', 'SQL']
+print(result)                           # Python - SQL
+```
+
+---
+
+**```join()``` returns a string**
+
+```python
+words = ["Python", "SQL"]
+
+result = " - ".join(words)
+
+print(result, type(result))                 # Python - SQL <class 'str'>
+```
+
+---
+
+**```split()``` vs ```join()```**
+
+**```split()```**
+
+```python
+text = "Python SQL Excel"
+
+print(text.split())                         # ['Python', 'SQL', 'Excel']
+```
+
+*String → List*
+
+**```join()```**
+
+```python
+text = ["Python", "SQL", "Excel"]
+
+print(" - ".join(text))                     # Python - SQL - Excel
+```
+
+*List → String*
+
+---
+
+```python
+numbers = [1, 2, 3]
+
+print("-".join(numbers))                    # TypeError: sequence item 0: expected str instance, int found
+
+print("-".join(map(str, numbers)))          # 1-2-3
+```
+
+---
+
+**```join()``` with Mixed Types**
+
+```python
+data = ["Python", 10, "SQL"]
+
+print(",".join(map(str,data)))            # Python,10,SQL
+
+",".join(data)                            # TypeError: sequence item 1: expected str instance, int found
+```
+
+*Because 10 is an integer*
+
+---
+
+
+
 
 
 

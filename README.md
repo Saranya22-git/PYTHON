@@ -101,6 +101,7 @@ Hey everybody!!!
     - [**Replace Methods**](#replace-methods)
     - [**Split**](#split)
     - [**Join**](#join)
+    - [**Alignment**](#alignment)
 
 
 ---
@@ -1072,7 +1073,7 @@ print(square(20))              # 400
 - **Better Organization:** *Large projects become easier to manage.*
 - **Easier maintenance:** *Updating one class doesn't require changing the whole program.*
 - **Better Security:** *Encapsulation protects data.*
-- **Real-Worl Modeling:** *Objects represent real-world entities naturally.*
+- **Real-World Modeling:** *Objects represent real-world entities naturally.*
 
 **Disadvantages of OOP**
 
@@ -6718,6 +6719,84 @@ print(",".join(map(str,data)))            # Python,10,SQL
 
 ---
 
+**Nested Lists**
+
+```python
+data = [["Python", "SQL"], ["Excel", "Power BI"]]
+
+print("-".join(map(str, data)))           # ['Python', 'SQL']-['Excel', 'Power BI']
+"-".join(data)                            # TypeError: sequence item 0: expected str instance, list found
+```
+
+---
+
+### **Alignment**
+
+*String alignment methods are used to position a string within a specified width by adding padding characters.*
+
+*Python provides*
+
+```txt
+ljust()   → left-align
+rjust()   → right-align
+center()  → center-align
+zfill()   → pad with zeros
+```
+
+---
+
+**```ljust()```**
+
+*```ljust()``` means left justify. It places the string on the left side and adds spaces on the right.*
+
+**Syntax:**
+
+```python
+string.ljust(width)
+```
+
+**Example:**
+
+```python
+text = "Python"
+
+print(text.ljust(20))                         # Python 
+```
+
+*The total width is 10, so Python adds ```10 - 6 = 4``` spaces.*
+
+**Visualizing ```ljust()```**
+
+```txt
+Width = 10
+
+|Python    |
+|← 6 chars →←4 spaces→|
+```
+
+---
+
+**Custom Fill Character**
+
+*You can specify a character to use for padding.*
+
+**Syntax:**
+
+```python
+string.ljust(width, fillchar)
+```
+
+**Example:**
+
+```python
+text = "Python"
+
+print(text.ljust(10, "-"))                    # Python----
+```
+
+---
+
+****
 
 
 

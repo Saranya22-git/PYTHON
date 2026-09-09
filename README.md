@@ -1318,41 +1318,41 @@ print("Hello")
 
 1. **Input:** *An algorithm should accept zero or more inputs. Input means the data given to solve a problem.*
 
-  **Example:** *ATM Machine*
+    **Example:** *ATM Machine*
 
-  **Input:** *ATM Card, PIN, Amount. Without these inputs the ATM cannot continue.*
+    **Input:** *ATM Card, PIN, Amount. Without these inputs the ATM cannot continue.*
 
-  *An algorithm may have zero inputs.*
+    *An algorithm may have zero inputs.*
 
-  **Example:** *Display 'Welcome' no input is required. So, Zero or more inputs.*
+    **Example:** *Display 'Welcome' no input is required. So, Zero or more inputs.*
 
 2. **Output:** *Every algorithm should produce at least one output. Without an output, there is no result.*
 
-  **Example:** *Calculator*
+    **Example:** *Calculator*
 
-  **Input:** *15+25*
+    **Input:** *15+25*
 
-  **Output:** *40*
+    **Output:** *40*
 
 3. **Definiteness:** *Every step in the algorithm should be clear, precise and unambiguous. There should be only one meaning.*
 
-  **Example:**
-  - *Read Number A*
-  - *Read Number B*
-  - *Add A and B*
-  - *Display the sum*
+    **Example:**
+    - *Read Number A*
+    - *Read Number B*
+    - *Add A and B*
+    - *Display the sum*
 
 4. **Finiteness:** *An algorithm must terminate after a finite number of steps. It should not continue forever.*
 
-  **Example:**
-  - *Read two numbers*
-  - *Add them*
-  - *Display the answer*
-  - *Stop*
+    **Example:**
+    - *Read two numbers*
+    - *Add them*
+    - *Display the answer*
+    - *Stop*
 
 5. **Effectiveness:** *Every step of an algorithm should be simple, practical, and executable. The computer should actually be able to perform it.*
 
-  **Example:** *Compare 2 numbers. Computer can do this.*
+    **Example:** *Compare 2 numbers. Computer can do this.*
 
 ---
 

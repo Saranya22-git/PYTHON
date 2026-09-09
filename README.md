@@ -1986,64 +1986,64 @@ print(sum)
 
 1. **Web Development:** *Python is widely used to build Websites, Web Applications, REST APIs.*
   
-  **Examples:**
-  - *Instagram (uses python in parts of its backend)*
-  - *Spotify (uses python for backend services and data analysis)*
-  - *YouTube (uses python for various backend components)*
+    **Examples:**
+    - *Instagram (uses python in parts of its backend)*
+    - *Spotify (uses python for backend services and data analysis)*
+    - *YouTube (uses python for various backend components)*
 
-  **Popular Frameworks:** *Django, Flask, FastAPI*
+    **Popular Frameworks:** *Django, Flask, FastAPI*
 
 2. **Data Analysis:** *Python is one of the most popular languages for analyzing data. It is used to Clean data, Analyze data, Generate reports, Find patterns.*
 
-  **Libraries:** *Pandas, NumPy.*
+    **Libraries:** *Pandas, NumPy.*
 
-  **Example:** *A company analyzes sales data to identify its best-selling products.*
+    **Example:** *A company analyzes sales data to identify its best-selling products.*
 
 3. **Data Science:** *Data Science involves extracting meaningful insights from data. Python helps in Data Collection, Data Cleaning, Data Visualization, Statistical Analysis.*
 
-  **Libraries:** *Pandas, NumPy, SciPy*
+    **Libraries:** *Pandas, NumPy, SciPy*
 
 4. **Artificial Intelligence (AI):** *Python is widely used to build intelligent systems that can perform tasks requiring human intelligence.*
 
-  **Examples:** *Chatbots, Voice Assistants, Recommendation Systems*
+    **Examples:** *Chatbots, Voice Assistants, Recommendation Systems*
 
-  **Real-world Example:** *ChatGPT is an AI application*
+    **Real-world Example:** *ChatGPT is an AI application*
 
 5. **Machine Learning (ML):** *Machine Learning enables computers to learn from data without being explicitly programmed.*
 
-  **Examples:** *Spam Detection, Movie Recommendations, Face Recognition*
+    **Examples:** *Spam Detection, Movie Recommendations, Face Recognition*
 
-  **Libraries:** *Scikit-learn, TensorFlow, PyTorch*
+    **Libraries:** *Scikit-learn, TensorFlow, PyTorch*
 
 6. **Automation:** *Python is excellent for automating repetitive tasks.*
 
-  **Examples:** *Renaming files, Sending emails, Reading Excel files, Web scraping.*
+    **Examples:** *Renaming files, Sending emails, Reading Excel files, Web scraping.*
 
-  **Real-world Examples:** *Automatically generating monthly reports instead of doing them manually.*
+    **Real-world Examples:** *Automatically generating monthly reports instead of doing them manually.*
 
 7. **Cybersecurity:** *Python is used for Security Testing, Network Analysis, Password Auditing, Ethical Hacking.*
 
 
 8. **Desktop GUI Applications:** *Python can be used to create desktop software.*
 
-  **Examples:** *Calculator, Text Editor, Inventory Management System*
+    **Examples:** *Calculator, Text Editor, Inventory Management System*
 
-  **Libraries:** *Tkinter, PyQT*
+    **Libraries:** *Tkinter, PyQT*
 
 9.  **Game Development:** *Python can be used to develop simple games.*
 
-  **Library:** *Pygame*
+    **Library:** *Pygame*
 
 10. **Internet of Things (IoT):** *Python is used in Raspberry Pi, Smart Home Devices, Embedded Systems.*
 
 
 11. **Scientific Computing:** *Scientists and researchers use python for Mathematical calculations, Simulations, Research.*
 
-  **Libraries:** *NumPy, SciPy*
+    **Libraries:** *NumPy, SciPy*
 
 12. **Cloud Computing:** *Python is used in cloud services and automation.*
 
-  **Examples:** *AWS Automation, Azure Automation, Google Cloud.*
+    **Examples:** *AWS Automation, Azure Automation, Google Cloud.*
 
 ---
 
